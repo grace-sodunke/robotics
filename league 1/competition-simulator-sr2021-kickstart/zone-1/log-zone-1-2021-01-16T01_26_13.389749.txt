@@ -1,0 +1,740 @@
+1| Using C:\Users\User\Documents\A LEVEL COMPUTER SCIENCE\Student Robotics\competition-simulator-sr2021-kickstart\zone-1\robot.py for Zone 1
+1| DEPRECATION: Robot.getMotor is deprecated, please use Robot.getDevice instead.
+1| DEPRECATION: Robot.getMotor is deprecated, please use Robot.getDevice instead.
+1| DEPRECATION: Robot.getDistanceSensor is deprecated, please use Robot.getDevice instead.
+1| DEPRECATION: Robot.getDistanceSensor is deprecated, please use Robot.getDevice instead.
+1| DEPRECATION: Robot.getDistanceSensor is deprecated, please use Robot.getDevice instead.
+1| DEPRECATION: Robot.getDistanceSensor is deprecated, please use Robot.getDevice instead.
+1| DEPRECATION: Robot.getDistanceSensor is deprecated, please use Robot.getDevice instead.
+1| DEPRECATION: Robot.getDistanceSensor is deprecated, please use Robot.getDevice instead.
+1| DEPRECATION: Robot.getTouchSensor is deprecated, please use Robot.getDevice instead.
+1| DEPRECATION: Robot.getTouchSensor is deprecated, please use Robot.getDevice instead.
+1| DEPRECATION: Robot.getLED is deprecated, please use Robot.getDevice instead.
+1| DEPRECATION: Robot.getLED is deprecated, please use Robot.getDevice instead.
+1| DEPRECATION: Robot.getLED is deprecated, please use Robot.getDevice instead.
+1| DEPRECATION: Robot.getLED is deprecated, please use Robot.getDevice instead.
+1| DEPRECATION: Robot.getLED is deprecated, please use Robot.getDevice instead.
+1| DEPRECATION: Robot.getLED is deprecated, please use Robot.getDevice instead.
+1| DEPRECATION: Robot.getCamera is deprecated, please use Robot.getDevice instead.
+1| DEPRECATION: Robot.getReceiver is deprecated, please use Robot.getDevice instead.
+1| DEPRECATION: Robot.getEmitter is deprecated, please use Robot.getDevice instead.
+1| Robot Initialized. Zone: 1, Mode: dev.
+1| Waiting for start signal.
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: 0.35213998993720885 with a signal strength of 0.44425762763586907
+1| StationCode.YL
+1| 0.445547504554192
+1| StationCode.YL
+1| 0.45104775316726076
+1| StationCode.YL
+1| 0.4697956551002353
+1| StationCode.YL
+1| 0.5005770911003763
+1| StationCode.YL
+1| 0.5444264125480771
+1| StationCode.YL
+1| 0.5999733887560272
+1| StationCode.YL
+1| 0.6602381966717539
+1| StationCode.YL
+1| 0.8035865859003382
+1| StationCode.YL
+1| 0.8980456334647863
+1| StationCode.YL
+1| 1.0166164574562555
+1| StationCode.YL
+1| 1.1580134860828337
+1| StationCode.YL
+1| 1.3251933379785492
+1| StationCode.YL
+1| 1.5288503598090937
+1| 0
+1| StationCode.YL
+1| Bearing: -0.08427553423157974
+1| 1
+1| StationCode.YL
+1| Bearing: -0.31021893582969184
+1| 2
+1| StationCode.YL
+1| Bearing: -0.3827985299370784
+1| 3
+1| StationCode.YL
+1| Bearing: -0.46315707766870595
+1| 4
+1| StationCode.YL
+1| Bearing: -0.5440119948810711
+1| 5
+1| StationCode.YL
+1| Bearing: -0.6311822342825328
+1| 6
+1| StationCode.YL
+1| Bearing: -0.7241538805022412
+1| 7
+1| StationCode.YL
+1| Bearing: -0.8190171571750771
+1| 8
+1| StationCode.YL
+1| Bearing: -1.0265343057674308
+1| 9
+1| StationCode.YL
+1| Bearing: -1.135438443551413
+1| 10
+1| StationCode.YL
+1| Bearing: -1.2522788818426376
+1| 11
+1| StationCode.YL
+1| Bearing: -1.3726720164960238
+1| 12
+1| StationCode.YL
+1| Bearing: -1.4940872308974198
+1| 13
+1| StationCode.YL
+1| Bearing: -1.614781217662535
+1| False 0
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: -1.7518774471912035 with a signal strength of 3.7284733650109745
+1| StationCode.YL
+1| 3.728473368146272
+1| 0
+1| Bearing: -1.8177581102365927
+1| False 0
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: -1.8507775440779275 with a signal strength of 3.5832424883389833
+1| StationCode.YL
+1| 3.5832424431076797
+1| 0
+1| Bearing: -1.880857034577418
+1| False 0
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: -1.9420705931078537 with a signal strength of 3.3933280173922693
+1| StationCode.YL
+1| 3.393327935593118
+1| 0
+1| Bearing: -1.9486119074196342
+1| False 0
+1| I found 2 transmitter(s):
+1|  - Transmitter PO Bearing: -1.1844758200205039 with a signal strength of 0.25392823888180716
+1|  - Transmitter YL Bearing: -2.027724884819225 with a signal strength of 3.170895995578801
+1| StationCode.PO
+1| 0.2539282417710997
+1| StationCode.PO
+1| 0.25468772350068525
+1| StationCode.PO
+1| 0.25968334288699163
+1| StationCode.PO
+1| 0.2691179661865039
+1| StationCode.PO
+1| 0.2808346842055166
+1| StationCode.PO
+1| 0.2936722731672097
+1| StationCode.PO
+1| 0.32476074855529147
+1| StationCode.PO
+1| 0.3441913006184877
+1| StationCode.PO
+1| 0.36644179005684197
+1| StationCode.PO
+1| 0.3923184027418781
+1| StationCode.PO
+1| 0.42241145576520606
+1| StationCode.PO
+1| 0.4572352815209734
+1| StationCode.PO
+1| 0.4969954777388697
+1| StationCode.PO
+1| 0.5965103351853487
+1| StationCode.PO
+1| 0.6558244981161331
+1| StationCode.PO
+1| 0.7226823643105447
+1| StationCode.PO
+1| 0.8004487969442402
+1| StationCode.PO
+1| 0.8921049053102218
+1| StationCode.PO
+1| 1.00144703937757
+1| StationCode.PO
+1| 1.1314028702571357
+1| StationCode.PO
+1| 1.4665673088212854
+1| StationCode.PO
+1| 1.7002560911675224
+1| 0
+1| StationCode.PO
+1| Bearing: -0.06282233653797675
+1| 1
+1| StationCode.PO
+1| Bearing: -0.1779885171654998
+1| 2
+1| StationCode.PO
+1| Bearing: -0.24793974458610535
+1| 3
+1| StationCode.PO
+1| Bearing: -0.32145198763051575
+1| 4
+1| StationCode.PO
+1| Bearing: -0.39816771050212996
+1| 5
+1| StationCode.PO
+1| Bearing: -0.5738660561398774
+1| 6
+1| StationCode.PO
+1| Bearing: -0.6726118670675305
+1| 7
+1| StationCode.PO
+1| Bearing: -0.7741227870402261
+1| 8
+1| StationCode.PO
+1| Bearing: -0.8812470230696547
+1| 9
+1| StationCode.PO
+1| Bearing: -0.9959675580739518
+1| 10
+1| StationCode.PO
+1| Bearing: -1.1155026662460408
+1| 11
+1| StationCode.PO
+1| Bearing: -1.2382032901565045
+1| 12
+1| StationCode.PO
+1| Bearing: -1.494356191947106
+1| 13
+1| StationCode.PO
+1| Bearing: -1.6228170787419103
+1| False 0
+1| I found 3 transmitter(s):
+1|  - Transmitter BE Bearing: -0.5523689698072127 with a signal strength of 0.30590930015879997
+1|  - Transmitter PO Bearing: -1.713142939461176 with a signal strength of 4.64199390956182
+1|  - Transmitter YL Bearing: 3.052960425172569 with a signal strength of 0.3588207862936291
+1| StationCode.BE
+1| 0.3059093095286309
+1| StationCode.BE
+1| 0.3074803698477022
+1| StationCode.BE
+1| 0.3196246173699133
+1| StationCode.BE
+1| 0.3425415899720327
+1| StationCode.BE
+1| 0.37107238176644164
+1| StationCode.BE
+1| 0.43333086519256964
+1| StationCode.BE
+1| 0.4701763584527987
+1| StationCode.BE
+1| 0.5124158168267956
+1| StationCode.BE
+1| 0.5597890278474116
+1| StationCode.BE
+1| 0.6145321772313919
+1| StationCode.BE
+1| 0.6772481474424873
+1| StationCode.BE
+1| 0.750348315277266
+1| StationCode.BE
+1| 0.9332707742063968
+1| StationCode.BE
+1| 1.0478807757633664
+1| StationCode.BE
+1| 1.1818851485902555
+1| StationCode.BE
+1| 1.3448846843982318
+1| StationCode.BE
+1| 1.547186517374449
+1| 0
+1| StationCode.BE
+1| Bearing: 0.03242586450276308
+1| 1
+1| StationCode.BE
+1| Bearing: -0.09067761670959662
+1| 2
+1| StationCode.BE
+1| Bearing: -0.25234388807819386
+1| 3
+1| StationCode.BE
+1| Bearing: -0.32100105091531894
+1| 4
+1| StationCode.BE
+1| Bearing: -0.3944298004464688
+1| 5
+1| StationCode.BE
+1| Bearing: -0.47548101956534783
+1| 6
+1| StationCode.BE
+1| Bearing: -0.5612345486891499
+1| 7
+1| StationCode.BE
+1| Bearing: -0.653269600653462
+1| 8
+1| StationCode.BE
+1| Bearing: -0.7529550066720585
+1| 9
+1| StationCode.BE
+1| Bearing: -0.9772040593692424
+1| 10
+1| StationCode.BE
+1| Bearing: -1.0951705438581074
+1| 11
+1| StationCode.BE
+1| Bearing: -1.2238903915761759
+1| 12
+1| StationCode.BE
+1| Bearing: -1.3559421250439483
+1| 13
+1| StationCode.BE
+1| Bearing: -1.4861910409093397
+1| 14
+1| StationCode.BE
+1| Bearing: -1.6140042619418988
+1| False 0
+1| I found 3 transmitter(s):
+1|  - Transmitter EY Bearing: 0.16651395563383842 with a signal strength of 0.44353972089589677
+1|  - Transmitter BE Bearing: -1.787191085984146 with a signal strength of 4.693739992883776
+1|  - Transmitter PO Bearing: 2.842125373937686 with a signal strength of 0.3828502013845243
+1| StationCode.EY
+1| 0.44353973749134096
+1| StationCode.EY
+1| 0.4510476087782746
+1| StationCode.EY
+1| 0.48223514179167815
+1| StationCode.EY
+1| 0.5320023640985867
+1| StationCode.EY
+1| 0.5878694932516189
+1| StationCode.EY
+1| 0.6456833643170384
+1| StationCode.EY
+1| 0.7126248971161279
+1| StationCode.EY
+1| 0.8815959219283853
+1| StationCode.EY
+1| 0.9902050798415822
+1| StationCode.EY
+1| 1.11844293371452
+1| StationCode.EY
+1| 1.2718924704875543
+1| StationCode.EY
+1| 1.4575357625913534
+1| StationCode.EY
+1| 1.6827233551120564
+1| 0
+1| StationCode.EY
+1| Bearing: 0.08252679902772009
+1| 1
+1| StationCode.EY
+1| Bearing: -0.13422191728189858
+1| 2
+1| StationCode.EY
+1| Bearing: -0.20048982144820826
+1| 3
+1| StationCode.EY
+1| Bearing: -0.27164870804903885
+1| 4
+1| StationCode.EY
+1| Bearing: -0.3461531959466635
+1| 5
+1| StationCode.EY
+1| Bearing: -0.42790827829682243
+1| 6
+1| StationCode.EY
+1| Bearing: -0.5185443590786427
+1| 7
+1| StationCode.EY
+1| Bearing: -0.6163256473014638
+1| 8
+1| StationCode.EY
+1| Bearing: -0.8290035863092999
+1| 9
+1| StationCode.EY
+1| Bearing: -0.9461160300626998
+1| 10
+1| StationCode.EY
+1| Bearing: -1.0754410042822453
+1| 11
+1| StationCode.EY
+1| Bearing: -1.2085375999086363
+1| 12
+1| StationCode.EY
+1| Bearing: -1.3453767727357988
+1| 13
+1| StationCode.EY
+1| Bearing: -1.484759166593971
+1| 14
+1| StationCode.EY
+1| Bearing: -1.6233897724330468
+1| False 0
+1| I found 3 transmitter(s):
+1|  - Transmitter PN Bearing: -0.7323974067691124 with a signal strength of 0.30320003994146905
+1|  - Transmitter EY Bearing: -1.84559976344977 with a signal strength of 5.526932563368525
+1|  - Transmitter BE Bearing: 2.8141079469913763 with a signal strength of 0.3719253246402157
+1| StationCode.PN
+1| 0.30320004607538575
+1| StationCode.PN
+1| 0.3053159504348384
+1| StationCode.PN
+1| 0.31733379916471555
+1| StationCode.PN
+1| 0.3385024816677182
+1| StationCode.PN
+1| 0.3643311601258212
+1| StationCode.PN
+1| 0.39226772310773156
+1| StationCode.PN
+1| 0.45781487535628784
+1| StationCode.PN
+1| 0.4973440170346419
+1| StationCode.PN
+1| 0.5424247585470056
+1| StationCode.PN
+1| 0.5932121680895155
+1| StationCode.PN
+1| 0.6515310069057907
+1| StationCode.PN
+1| 0.720272337742096
+1| StationCode.PN
+1| 0.8003561720608514
+1| StationCode.PN
+1| 1.0042369282480892
+1| StationCode.PN
+1| 1.1362942115965036
+1| StationCode.PN
+1| 1.2934177063949648
+1| StationCode.PN
+1| 1.4855186482139016
+1| StationCode.PN
+1| 1.7253539979915495
+1| 0
+1| StationCode.PN
+1| Bearing: -0.09705770027195015
+1| 1
+1| StationCode.PN
+1| Bearing: -0.2221080574672154
+1| 2
+1| StationCode.PN
+1| Bearing: -0.38388378112070765
+1| 3
+1| StationCode.PN
+1| Bearing: -0.4605178123895932
+1| 4
+1| StationCode.PN
+1| Bearing: -0.5496412509892732
+1| 5
+1| StationCode.PN
+1| Bearing: -0.6411217586689943
+1| 6
+1| StationCode.PN
+1| Bearing: -0.7365306605163724
+1| 7
+1| StationCode.PN
+1| Bearing: -0.8416590303932017
+1| 8
+1| StationCode.PN
+1| Bearing: -0.9570578524242324
+1| 9
+1| StationCode.PN
+1| Bearing: -1.2038236437732621
+1| 10
+1| StationCode.PN
+1| Bearing: -1.3336722924595952
+1| 11
+1| StationCode.PN
+1| Bearing: -1.4634905025228662
+1| 12
+1| StationCode.PN
+1| Bearing: -1.5924519293793118
+1| False 0
+1| I found 2 transmitter(s):
+1|  - Transmitter PN Bearing: -1.718383325468202 with a signal strength of 4.622579830535626
+1|  - Transmitter EY Bearing: 2.871914065682305 with a signal strength of 0.39059511294408283
+1| StationCode.EY
+1| 0.3905951005689429
+1| StationCode.PN
+1| 4.576997905450749
+1| 0
+1| Bearing: -1.833927019310579
+1| False 0
+1| I found 2 transmitter(s):
+1|  - Transmitter PN Bearing: -1.8644236406192665 with a signal strength of 4.2543818413918535
+1|  - Transmitter EY Bearing: 3.0541400755596584 with a signal strength of 0.3338842229782584
+1| StationCode.EY
+1| 0.3338842097520903
+1| StationCode.EY
+1| 0.3283759555991367
+1| StationCode.EY
+1| 0.31092507922379675
+1| StationCode.EY
+1| 0.28935480325407065
+1| StationCode.EY
+1| 0.27076089017155164
+1| StationCode.EY
+1| 0.255780448580435
+1| StationCode.PN
+1| 2.0342630580312764
+1| 0
+1| Bearing: -2.833905619341455
+1| False 0
+1| I found 1 transmitter(s):
+1|  - Transmitter PN Bearing: -2.730110950675252 with a signal strength of 1.3735119426600806
+1| StationCode.PN
+1| 1.3735118397652024
+1| StationCode.PN
+1| 1.3521402506222813
+1| StationCode.PN
+1| 1.2553281597786499
+1| StationCode.PN
+1| 1.1971415862487031
+1| StationCode.PN
+1| 1.1587899686598313
+1| StationCode.PN
+1| 1.0635146099496577
+1| StationCode.PN
+1| 1.0468718893130702
+1| StationCode.PN
+1| 1.0473293719188912
+1| StationCode.PN
+1| 1.0465012892334842
+1| StationCode.PN
+1| 1.046299112121475
+1| StationCode.PN
+1| 1.0462390250309284
+1| StationCode.PN
+1| 1.0461981423747926
+1| StationCode.PN
+1| 1.046163652472265
+1| StationCode.PN
+1| 1.0461642716582789
+1| StationCode.PN
+1| 1.0461719918379548
+1| StationCode.PN
+1| 1.046184662396803
+1| StationCode.PN
+1| 1.0462005654270508
+1| StationCode.PN
+1| 1.0462183324746994
+1| StationCode.PN
+1| 1.04623801189029
+1| StationCode.PN
+1| 1.046281336054522
+1| StationCode.PN
+1| 1.0463043281938216
+1| StationCode.PN
+1| 1.046327825606242
+1| StationCode.PN
+1| 1.0463536518312349
+1| StationCode.PN
+1| 1.0463824799681627
+1| StationCode.PN
+1| 1.0464130463977044
+1| StationCode.PN
+1| 1.0464447118260352
+1| StationCode.PN
+1| 1.0465097203980787
+1| StationCode.PN
+1| 1.0465423543295667
+1| StationCode.PN
+1| 1.0465749408321106
+1| StationCode.PN
+1| 1.0466074468266242
+1| StationCode.PN
+1| 1.0466397578904776
+1| StationCode.PN
+1| 1.0466718105573218
+1| StationCode.PN
+1| 1.0467035855145301
+1| StationCode.PN
+1| 1.046766178079878
+1| StationCode.PN
+1| 1.0467970223817809
+1| StationCode.PN
+1| 1.046827652131407
+1| StationCode.PN
+1| 1.0468579290895486
+1| StationCode.PN
+1| 1.0468879407152383
+1| StationCode.PN
+1| 1.0469176527346284
+1| StationCode.PN
+1| 1.046947052521239
+1| StationCode.PN
+1| 1.0470050048116004
+1| StationCode.PN
+1| 1.0470332828572877
+1| StationCode.PN
+1| 1.0470611458030858
+1| StationCode.PN
+1| 1.047088661989319
+1| StationCode.PN
+1| 1.0471158795305566
+1| StationCode.PN
+1| 1.04714283195577
+1| StationCode.PN
+1| 1.0471695427466865
+1| StationCode.PN
+1| 1.0472223011557993
+1| StationCode.PN
+1| 1.047248369292268
+1| StationCode.PN
+1| 1.0472742392717818
+1| StationCode.PN
+1| 1.0472999158437837
+1| True 1
+1| I found 2 transmitter(s):
+1|  - Transmitter PN Bearing: 2.941840131259512 with a signal strength of 4.311556110693561
+1|  - Transmitter EY Bearing: 2.19476049791019 with a signal strength of 0.2559974931863862
+1| StationCode.PN
+1| 4.311712929289709
+1| 0
+1| StationCode.PN
+1| Bearing: 2.9474523145093166
+1| 1
+1| StationCode.PN
+1| Bearing: 2.943972499797453
+1| 2
+1| StationCode.PN
+1| Bearing: 2.9158951269567392
+1| 3
+1| StationCode.PN
+1| Bearing: 2.860282292120166
+1| 4
+1| StationCode.PN
+1| Bearing: 2.831871538168659
+1| 5
+1| StationCode.PN
+1| Bearing: 2.801188437999361
+1| 6
+1| StationCode.PN
+1| Bearing: 2.772218051293019
+1| 7
+1| StationCode.PN
+1| Bearing: 2.7447534615604203
+1| 8
+1| StationCode.PN
+1| Bearing: 2.71893797452392
+1| 9
+1| StationCode.PN
+1| Bearing: 2.693956634681604
+1| 10
+1| StationCode.PN
+1| Bearing: 2.639057803243767
+1| 11
+1| StationCode.PN
+1| Bearing: 2.612063608607608
+1| 12
+1| StationCode.PN
+1| Bearing: 2.5851092170562304
+1| 13
+1| StationCode.PN
+1| Bearing: 2.555641630087299
+1| 14
+1| StationCode.PN
+1| Bearing: 2.5265001802926355
+1| 15
+1| StationCode.PN
+1| Bearing: 2.568115739403566
+1| 16
+1| StationCode.PN
+1| Bearing: 2.609411934169061
+1| 17
+1| StationCode.PN
+1| Bearing: 2.724351602094414
+1| 18
+1| StationCode.PN
+1| Bearing: 2.7798922653151834
+1| 19
+1| StationCode.PN
+1| Bearing: 2.8323089717471586
+1| 20
+1| StationCode.PN
+1| Bearing: 2.888296322600297
+1| 21
+1| StationCode.PN
+1| Bearing: 2.9363293828244346
+1| 22
+1| StationCode.PN
+1| Bearing: 2.938995466574647
+1| 23
+1| StationCode.PN
+1| Bearing: 2.940106256810463
+1| 24
+1| StationCode.PN
+1| Bearing: 2.941560058889196
+1| 25
+1| StationCode.PN
+1| Bearing: 2.942138042987153
+1| 26
+1| StationCode.PN
+1| Bearing: 2.9426546217596967
+1| 27
+1| StationCode.PN
+1| Bearing: 2.943122230128447
+1| 28
+1| StationCode.PN
+1| Bearing: 2.943551369099388
+1| 29
+1| StationCode.PN
+1| Bearing: 2.9439629540882764
+1| 30
+1| StationCode.PN
+1| Bearing: 2.944361625421964
+1| 31
+1| StationCode.PN
+1| Bearing: 2.945103408410396
+1| 32
+1| StationCode.PN
+1| Bearing: 2.945458339482207
+1| 33
+1| StationCode.PN
+1| Bearing: 2.9458044001299215
+1| 34
+1| StationCode.PN
+1| Bearing: 2.946140739289118
+1| 35
+1| StationCode.PN
+1| Bearing: 2.946467124122596
+1| 36
+1| StationCode.PN
+1| Bearing: 2.9467836083040675
+1| 37
+1| StationCode.PN
+1| Bearing: 2.9470913428632004
+1| 38
+1| StationCode.PN
+1| Bearing: 2.94768299169639
+1| 39
+1| StationCode.PN
+1| Bearing: 2.9479672701273882
+1| 40
+1| StationCode.PN
+1| Bearing: 2.948244003238149
+1| 41
+1| StationCode.PN
+1| Bearing: 2.9485133437152715
+1| 42
+1| StationCode.PN
+1| Bearing: 2.9487754611300794
+1| 43
+1| StationCode.PN
+1| Bearing: 2.949030505582799
+1| 44
+1| StationCode.PN
+1| Bearing: 2.94927864704666
+1| 45
+1| StationCode.PN
+1| Bearing: 2.949754994684542
+1| 46
+1| StationCode.PN
+1| Bearing: 2.9499835368225997
+1| 47
+1| StationCode.PN
+1| Bearing: 2.9502058778909492
+1| 48
+1| StationCode.PN
+1| Bearing: 2.950422217441546
+1| 49
+1| StationCode.PN
+1| Bearing: 2.950632735674864
+1| 50
+1| StationCode.PN
+1| Bearing: 2.950837589293317
+1| 51
+1| StationCode.PN
+1| True 2

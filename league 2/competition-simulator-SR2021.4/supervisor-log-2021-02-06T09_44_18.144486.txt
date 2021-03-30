@@ -1,0 +1,10 @@
+Zone 0 ready
+Zone 1 ready
+Traceback (most recent call last):
+  File "competition_supervisor.py", line 238, in <module>
+    main()
+  File "competition_supervisor.py", line 228, in main
+    check_required_libraries(REPO_ROOT / 'libraries.txt')
+  File "competition_supervisor.py", line 95, in check_required_libraries
+    raise RuntimeError(
+RuntimeError: Required packages are missing (['pandas==1.1.4', 'scikit-learn==0.23.2', 'scipy==1.5.4']) or incorrect (['matplotlib==3.3.3', 'numpy==1.19.3']). Have you installed libraries.txt?

@@ -1,0 +1,8 @@
+1| Using C:\Users\User\Documents\A LEVEL COMPUTER SCIENCE\Student Robotics\competition-simulator-sr2021-kickstart\zone-1\robot.py for Zone 1
+1| Traceback (most recent call last):
+1|   File "sr_controller.py", line 254, in <module>
+1|   File "sr_controller.py", line 250, in main
+1|   File "<string>", line 113
+1|     print(captured)
+1|                   ^
+1| TabError: inconsistent use of tabs and spaces in indentation

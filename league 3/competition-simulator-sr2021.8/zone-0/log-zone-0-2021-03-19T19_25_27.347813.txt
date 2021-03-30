@@ -1,0 +1,401 @@
+0| Running simulator version sr2021.8 (rev 0a2b69ea8d4ade586abea9d79e389841c3ce9e22)
+0| Using C:\Users\User\Documents\A LEVEL COMPUTER SCIENCE\Student Robotics\league 3\competition-simulator-sr2021.8\zone-0\robot.py for Zone 0
+0| Robot Initialized. Zone: 0, Mode: dev.
+0| Waiting for start signal.
+0| Starting
+0| Initial heading:  2.4002774293090425
+0| I found 1 transmitter(s):
+0|  - Transmitter PN Bearing: -0.5742031876279947 with a signal strength of 0.40815378445409867
+0| Heading of PN: 1.9903024378263758
+0| I found 1 transmitter(s):
+0|  - Transmitter PN Bearing: -0.07234018378185603 with a signal strength of 0.4025873588213975
+0| I found 1 transmitter(s):
+0|  - Transmitter PN Bearing: -0.005683873429137343 with a signal strength of 0.41488014583826555
+0| I found 1 transmitter(s):
+0|  - Transmitter PN Bearing: -0.022350818726860844 with a signal strength of 0.46118655880920045
+0| I found 1 transmitter(s):
+0|  - Transmitter PN Bearing: -0.14980633604161753 with a signal strength of 0.5027100682630113
+0| I found 1 transmitter(s):
+0|  - Transmitter PN Bearing: -0.06917342510738322 with a signal strength of 0.537931587049503
+0| I found 1 transmitter(s):
+0|  - Transmitter PN Bearing: -0.07435672600105914 with a signal strength of 0.6315590735519593
+0| I found 2 transmitter(s):
+0|  - Transmitter PN Bearing: -0.050866352067598264 with a signal strength of 0.6853252927555172
+0|  - Transmitter BG Bearing: 1.161417573731423 with a signal strength of 0.2578468234552931
+0| I found 2 transmitter(s):
+0|  - Transmitter PN Bearing: -0.025670759185276282 with a signal strength of 0.7073088144757321
+0|  - Transmitter BG Bearing: 1.129789326220978 with a signal strength of 0.2504434591121151
+0| I found 2 transmitter(s):
+0|  - Transmitter PN Bearing: -0.17174959773946075 with a signal strength of 0.7881855948929921
+0|  - Transmitter BG Bearing: 1.1909526955066394 with a signal strength of 0.26517576706477197
+0| I found 2 transmitter(s):
+0|  - Transmitter PN Bearing: -0.1603626541461729 with a signal strength of 0.93961038574243
+0|  - Transmitter BG Bearing: 1.1970788548180695 with a signal strength of 0.2799848629642767
+0| I found 2 transmitter(s):
+0|  - Transmitter PN Bearing: -0.1159149646001616 with a signal strength of 1.0438275709874218
+0|  - Transmitter BG Bearing: 1.218333053522832 with a signal strength of 0.2822112639241711
+0| I found 2 transmitter(s):
+0|  - Transmitter PN Bearing: -0.08388347393706752 with a signal strength of 1.2098300996539686
+0|  - Transmitter BG Bearing: 1.2186745288788179 with a signal strength of 0.26465787262462553
+0| I found 2 transmitter(s):
+0|  - Transmitter PN Bearing: -0.22894986895531932 with a signal strength of 1.340678231360573
+0|  - Transmitter BG Bearing: 1.2951951542083517 with a signal strength of 0.29919776464906206
+0| I found 2 transmitter(s):
+0|  - Transmitter PN Bearing: -0.15750389109294538 with a signal strength of 1.594766599743199
+0|  - Transmitter BG Bearing: 1.3517016155721757 with a signal strength of 0.2776270419426363
+0| I found 2 transmitter(s):
+0|  - Transmitter PN Bearing: -0.15466683399040448 with a signal strength of 1.9767632230449717
+0|  - Transmitter BG Bearing: 1.4459452338599925 with a signal strength of 0.3110969168611488
+0| I found 2 transmitter(s):
+0|  - Transmitter PN Bearing: -0.14567001430026316 with a signal strength of 2.2882016069657842
+0|  - Transmitter BG Bearing: 1.3871150153627594 with a signal strength of 0.3143597404294708
+0| I found 2 transmitter(s):
+0|  - Transmitter PN Bearing: -0.1791118695627354 with a signal strength of 2.6878184737679414
+0|  - Transmitter BG Bearing: 1.4426891705398648 with a signal strength of 0.31579629070304466
+0| I found 2 transmitter(s):
+0|  - Transmitter PN Bearing: -0.2509502799380421 with a signal strength of 3.502838884873685
+0|  - Transmitter BG Bearing: 1.5461050660704685 with a signal strength of 0.3235627545210085
+0| I found 2 transmitter(s):
+0|  - Transmitter PN Bearing: -0.28759840765457056 with a signal strength of 4.296377925626676
+0|  - Transmitter BG Bearing: 1.5602553099122376 with a signal strength of 0.312587701788651
+0| I found 2 transmitter(s):
+0|  - Transmitter PN Bearing: -0.2518793885460173 with a signal strength of 5.444490293473167
+0|  - Transmitter BG Bearing: 1.6777267378730933 with a signal strength of 0.3113624744900708
+0| I found 2 transmitter(s):
+0|  - Transmitter PN Bearing: -0.3610434850788238 with a signal strength of 8.142145930068645
+0|  - Transmitter BG Bearing: 1.6278499319751234 with a signal strength of 0.30789858335799275
+0| I found 3 transmitter(s):
+0|  - Transmitter EY Bearing: -0.4265623970281016 with a signal strength of 0.7157343153332991
+0|  - Transmitter BG Bearing: 2.123312874698392 with a signal strength of 0.3556579632437646
+0|  - Transmitter TS Bearing: 1.1456590319929998 with a signal strength of 0.36567571701571744
+0| Heading of EY: 1.6615286532357953
+0| I found 3 transmitter(s):
+0|  - Transmitter EY Bearing: -0.014932960315679367 with a signal strength of 0.742605334159728
+0|  - Transmitter BG Bearing: 2.4774086631459236 with a signal strength of 0.3503487804553632
+0|  - Transmitter TS Bearing: 1.4299076040302647 with a signal strength of 0.3410278320105756
+0| I found 3 transmitter(s):
+0|  - Transmitter EY Bearing: -0.099304121070797 with a signal strength of 0.8183085427491694
+0|  - Transmitter BG Bearing: 2.50789961288058 with a signal strength of 0.3428007085000506
+0|  - Transmitter TS Bearing: 1.4115600223030331 with a signal strength of 0.35968937867189177
+0| I found 3 transmitter(s):
+0|  - Transmitter EY Bearing: -0.10977341854402134 with a signal strength of 0.8619746426709173
+0|  - Transmitter BG Bearing: 2.5237462156448967 with a signal strength of 0.33086195246504707
+0|  - Transmitter TS Bearing: 1.5731244764004446 with a signal strength of 0.35728503172717146
+0| I found 3 transmitter(s):
+0|  - Transmitter EY Bearing: 0.0882473303001654 with a signal strength of 0.9617172840007648
+0|  - Transmitter BG Bearing: 2.5636043766797485 with a signal strength of 0.3023341823620714
+0|  - Transmitter TS Bearing: 1.5987347243005565 with a signal strength of 0.3450866747745162
+0| I found 3 transmitter(s):
+0|  - Transmitter EY Bearing: -0.049091546722027424 with a signal strength of 1.1748884556338928
+0|  - Transmitter BG Bearing: 2.6003079175964405 with a signal strength of 0.2794164737605846
+0|  - Transmitter TS Bearing: 1.6510345426296404 with a signal strength of 0.33833955567284907
+0| I found 3 transmitter(s):
+0|  - Transmitter EY Bearing: -0.16858187260468505 with a signal strength of 1.3427400342167346
+0|  - Transmitter BG Bearing: 2.6339134890019547 with a signal strength of 0.2664672386694402
+0|  - Transmitter TS Bearing: 1.712133593193759 with a signal strength of 0.34982014248924254
+0| I found 3 transmitter(s):
+0|  - Transmitter EY Bearing: -0.0917163244857786 with a signal strength of 1.5313880056383415
+0|  - Transmitter BG Bearing: 2.5968321340022484 with a signal strength of 0.25798578064048494
+0|  - Transmitter TS Bearing: 1.69969204399378 with a signal strength of 0.357727842209481
+0| I found 2 transmitter(s):
+0|  - Transmitter EY Bearing: -0.0754672303221815 with a signal strength of 1.7536327614001335
+0|  - Transmitter TS Bearing: 1.7246252693357187 with a signal strength of 0.3430766706857683
+0| I found 2 transmitter(s):
+0|  - Transmitter EY Bearing: -0.06925364354660246 with a signal strength of 2.0266499150359336
+0|  - Transmitter TS Bearing: 1.8497202692196864 with a signal strength of 0.3437087637567142
+0| I found 2 transmitter(s):
+0|  - Transmitter EY Bearing: -0.15924887471350768 with a signal strength of 2.4870936393683256
+0|  - Transmitter TS Bearing: 1.758001322687284 with a signal strength of 0.323036653280725
+0| I found 2 transmitter(s):
+0|  - Transmitter EY Bearing: -0.12167644027054081 with a signal strength of 3.126043049577676
+0|  - Transmitter TS Bearing: 1.8561132619514917 with a signal strength of 0.32227585452597557
+0| I found 2 transmitter(s):
+0|  - Transmitter EY Bearing: -0.11960304709312553 with a signal strength of 4.049008776466322
+0|  - Transmitter TS Bearing: 1.8951188332805438 with a signal strength of 0.32775213993323354
+0| I found 2 transmitter(s):
+0|  - Transmitter EY Bearing: -0.11734087104216417 with a signal strength of 5.390055919259248
+0|  - Transmitter TS Bearing: 1.9044771732821018 with a signal strength of 0.30578019704470377
+0| I found 2 transmitter(s):
+0|  - Transmitter EY Bearing: -0.16792477741024836 with a signal strength of 6.950284544818799
+0|  - Transmitter TS Bearing: 1.9496631856190711 with a signal strength of 0.31839892074962556
+0| Heading before reversing:  1.8735548269178663
+0| Distance to right wall:  0.3891147756095988
+0| Distance to right wall:  0.3774825387722784
+0| Distance to right wall:  0.37715750174884755
+0| Distance to right wall:  0.35306250014440593
+0| Distance to right wall:  0.35076745146222915
+0| Distance to right wall:  0.33673329015353626
+0| Distance to right wall:  0.32155299165714685
+0| Distance to right wall:  0.30974373979237296
+0| Distance to right wall:  0.30293174302645665
+0| Distance to right wall:  0.2852673360969888
+0| Distance to right wall:  0.2744504745163377
+0| Distance to right wall:  0.2711528828779319
+0| Distance to right wall:  0.25515016679775254
+0| Distance to right wall:  0.24710307451062566
+0| Distance to right wall:  0.23703784688916762
+0| Distance to right wall:  0.22835864316024707
+0| Distance to right wall:  0.22053505067332518
+0| Distance to right wall:  0.20682816375978352
+0| Distance to right wall:  0.1976118266658725
+0| Distance to right wall:  0.17857635074621586
+0| Distance to right wall:  0.16964041048334835
+0| Distance to right wall:  0.16163305652746388
+0| Distance to right wall:  0.14856738705374184
+0| Distance to right wall:  0.14047566147622745
+0| Distance to right wall:  0.1291196931045237
+0| Distance to right wall:  0.12099487546865142
+0| Distance to right wall:  0.10971740797830976
+0| Distance to right wall:  0.09705502739565813
+0| Distance to right wall:  0.16510525342381682
+0| Distance to right wall:  0.17204157113317628
+0| Distance to right wall:  0.17126464016216153
+0| Distance to right wall:  0.17252521921089037
+0| Distance to right wall:  0.17778087263223027
+0| Distance to right wall:  0.1824214922198894
+0| Distance to right wall:  0.1797873115112659
+0| Distance to right wall:  0.18639298726697498
+0| Distance to right wall:  0.18193648897055564
+0| Distance to right wall:  0.19179499367450537
+0| Distance to right wall:  0.19155118360003906
+0| Distance to right wall:  0.191279911621445
+0| Distance to right wall:  0.19823426505133243
+0| Distance to right wall:  0.19632936011375882
+0| Distance to right wall:  0.19571801345339424
+0| Distance to right wall:  0.20117589714276043
+0| Distance to right wall:  0.20080859185713062
+0| Distance to right wall:  0.2067329837182339
+0| Distance to right wall:  0.2121969569370931
+0| Distance to right wall:  0.2100973573776566
+0| Distance to right wall:  0.2154960143653922
+0| Distance to right wall:  0.21837700042517416
+0| Distance to right wall:  0.2196272471313827
+0| Distance to right wall:  0.21333615960150562
+0| Distance to right wall:  0.2228641881004933
+0| Distance to right wall:  0.2245264171863222
+0| Distance to right wall:  0.22198552237379535
+0| Distance to right wall:  0.22137598804649905
+0| Distance to right wall:  0.22829928835668947
+0| Distance to right wall:  0.229270658382753
+0| Distance to right wall:  1.9705691122757094
+0| Distance to right wall:  1.968912200369846
+0| Distance to right wall:  1.9531338204545254
+0| Distance to right wall:  2.0
+0| Distance to right wall:  2.0
+0| Distance to right wall:  2.0
+0| Distance to right wall:  2.0
+0| Distance to right wall:  1.9679633831777072
+0| Current heading:  3.2181236717126542
+0| I found 1 transmitter(s):
+0|  - Transmitter BG Bearing: -0.5640628810471595 with a signal strength of 0.993433990727603
+0| I found 1 transmitter(s):
+0|  - Transmitter BG Bearing: 0.06541232275707687 with a signal strength of 1.1713533161217902
+0| I found 1 transmitter(s):
+0|  - Transmitter BG Bearing: 0.08047359421854772 with a signal strength of 1.5925075306065573
+0| I found 1 transmitter(s):
+0|  - Transmitter BG Bearing: 0.09906674236030266 with a signal strength of 2.2829609476381543
+0| I found 1 transmitter(s):
+0|  - Transmitter BG Bearing: 0.1444479236174958 with a signal strength of 3.5866705154476834
+0| I found 2 transmitter(s):
+0|  - Transmitter BG Bearing: 0.10081010284246794 with a signal strength of 5.79410170595831
+0|  - Transmitter TS Bearing: -0.2784462710990816 with a signal strength of 0.24528871593381602
+0| I found 2 transmitter(s):
+0|  - Transmitter OX Bearing: 0.9717980215914586 with a signal strength of 0.4085392452618116
+0|  - Transmitter TS Bearing: -0.44507290144442013 with a signal strength of 0.9924595073659116
+0| I found 2 transmitter(s):
+0|  - Transmitter OX Bearing: 1.2788135639073015 with a signal strength of 0.4033529267419238
+0|  - Transmitter TS Bearing: -0.025383893853669903 with a signal strength of 1.1303308864813977
+0| I found 2 transmitter(s):
+0|  - Transmitter OX Bearing: 1.3261694902247962 with a signal strength of 0.42770269698595825
+0|  - Transmitter TS Bearing: -0.01498432798504723 with a signal strength of 1.5845974094183906
+0| I found 2 transmitter(s):
+0|  - Transmitter OX Bearing: 1.6099046749803896 with a signal strength of 0.4199120078393211
+0|  - Transmitter TS Bearing: -0.0697641791173158 with a signal strength of 2.1903792496095282
+0| I found 2 transmitter(s):
+0|  - Transmitter OX Bearing: 1.523544354135741 with a signal strength of 0.42650223665466536
+0|  - Transmitter TS Bearing: -0.00022307319964376404 with a signal strength of 3.111490946741287
+0| I found 2 transmitter(s):
+0|  - Transmitter OX Bearing: 1.6743220579014253 with a signal strength of 0.4219844449516599
+0|  - Transmitter TS Bearing: -0.03917533909280024 with a signal strength of 5.221360708472639
+0| I found 2 transmitter(s):
+0|  - Transmitter OX Bearing: 1.7004340883196518 with a signal strength of 0.4154661562082652
+0|  - Transmitter TS Bearing: -0.10339676762869043 with a signal strength of 10.543916548138563
+0| I found 2 transmitter(s):
+0|  - Transmitter OX Bearing: 2.4782697022851576 with a signal strength of 0.3810804596386749
+0|  - Transmitter VB Bearing: -0.6765420892705158 with a signal strength of 0.5216911496223577
+0| I found 2 transmitter(s):
+0|  - Transmitter OX Bearing: 0.07130482832924079 with a signal strength of 0.4916656641359891
+0|  - Transmitter VB Bearing: -2.9164893266544003 with a signal strength of 0.40545492636182257
+0| I found 2 transmitter(s):
+0|  - Transmitter OX Bearing: -0.04867855560018697 with a signal strength of 0.5824277063297962
+0|  - Transmitter VB Bearing: -3.0850139290560494 with a signal strength of 0.32740099110426046
+0| I found 2 transmitter(s):
+0|  - Transmitter OX Bearing: -0.03524184394900676 with a signal strength of 0.7194216282156923
+0|  - Transmitter VB Bearing: -3.040673759853401 with a signal strength of 0.2957372954159994
+0| I found 2 transmitter(s):
+0|  - Transmitter OX Bearing: -0.03174007261523393 with a signal strength of 0.9350117209310734
+0|  - Transmitter VB Bearing: -2.9929100552396117 with a signal strength of 0.25845048900626777
+0| I found 1 transmitter(s):
+0|  - Transmitter OX Bearing: -0.0829369018397852 with a signal strength of 1.1270783386022893
+0| I found 1 transmitter(s):
+0|  - Transmitter OX Bearing: 0.06301011365457176 with a signal strength of 1.5813803133054118
+0| I found 1 transmitter(s):
+0|  - Transmitter OX Bearing: -0.06558704936071713 with a signal strength of 2.121283114110071
+0| I found 1 transmitter(s):
+0|  - Transmitter OX Bearing: 0.045470816351398824 with a signal strength of 3.308180592084684
+0| I found 1 transmitter(s):
+0|  - Transmitter OX Bearing: 0.05797993176775629 with a signal strength of 5.592666564702831
+0| I found 1 transmitter(s):
+0|  - Transmitter OX Bearing: -0.03757171257389036 with a signal strength of 12.96081096307274
+0| I found 0 transmitter(s):
+0| I found 1 transmitter(s):
+0|  - Transmitter VB Bearing: -0.3021528989403013 with a signal strength of 0.39870710070077264
+0| I found 1 transmitter(s):
+0|  - Transmitter VB Bearing: -0.09135802963936257 with a signal strength of 0.4061027861536404
+0| I found 1 transmitter(s):
+0|  - Transmitter VB Bearing: -0.15235275011139393 with a signal strength of 0.5121977053850054
+0| I found 1 transmitter(s):
+0|  - Transmitter VB Bearing: -0.15595962603509683 with a signal strength of 0.6158970815784517
+0| I found 1 transmitter(s):
+0|  - Transmitter VB Bearing: -0.1994211502158585 with a signal strength of 0.7395806201051155
+0| I found 1 transmitter(s):
+0|  - Transmitter VB Bearing: -0.20859936235472354 with a signal strength of 0.8960379378006009
+0| I found 1 transmitter(s):
+0|  - Transmitter VB Bearing: -0.09623025458987122 with a signal strength of 1.258468581243596
+0| I found 1 transmitter(s):
+0|  - Transmitter VB Bearing: -0.21877410508309314 with a signal strength of 1.6341769338057397
+0| I found 1 transmitter(s):
+0|  - Transmitter VB Bearing: -0.47843990796223146 with a signal strength of 2.3545101097942234
+0| I found 1 transmitter(s):
+0|  - Transmitter VB Bearing: -0.3788704425059226 with a signal strength of 3.2757153496636553
+0| I found 1 transmitter(s):
+0|  - Transmitter VB Bearing: -0.5108193871815097 with a signal strength of 5.4159568921340355
+0| I found 1 transmitter(s):
+0|  - Transmitter VB Bearing: -0.6964054133650208 with a signal strength of 9.208453212598185
+0| I found 1 transmitter(s):
+0|  - Transmitter SZ Bearing: -0.5619926308335685 with a signal strength of 0.6277609641726234
+0| I found 1 transmitter(s):
+0|  - Transmitter SZ Bearing: -0.05988174756171638 with a signal strength of 0.6545860803650746
+0| I found 1 transmitter(s):
+0|  - Transmitter SZ Bearing: -0.07098045293983901 with a signal strength of 0.7505000810530651
+0| I found 1 transmitter(s):
+0|  - Transmitter SZ Bearing: -0.026775155593703026 with a signal strength of 0.9931849212413096
+0| I found 1 transmitter(s):
+0|  - Transmitter SZ Bearing: -0.03785938215694884 with a signal strength of 1.315823285415407
+0| I found 1 transmitter(s):
+0|  - Transmitter SZ Bearing: -0.02975445654902309 with a signal strength of 1.8608084355839565
+0| I found 1 transmitter(s):
+0|  - Transmitter SZ Bearing: -0.03552117257946996 with a signal strength of 2.459870521999296
+0| I found 1 transmitter(s):
+0|  - Transmitter SZ Bearing: 0.032393191040347435 with a signal strength of 4.146553031455467
+0| I found 1 transmitter(s):
+0|  - Transmitter SZ Bearing: -0.10559367982130219 with a signal strength of 7.963198487629717
+0| I found 1 transmitter(s):
+0|  - Transmitter BE Bearing: -0.00939461238093564 with a signal strength of 0.4199272460032896
+0| I found 1 transmitter(s):
+0|  - Transmitter BE Bearing: -0.034654881055150355 with a signal strength of 0.4826397134592816
+0| I found 1 transmitter(s):
+0|  - Transmitter BE Bearing: 0.05830527335762126 with a signal strength of 0.6143899639418795
+0| I found 1 transmitter(s):
+0|  - Transmitter BE Bearing: 0.0150767245695822 with a signal strength of 0.762531294780261
+0| I found 1 transmitter(s):
+0|  - Transmitter BE Bearing: -0.012926560127761277 with a signal strength of 0.9245889533124891
+0| I found 1 transmitter(s):
+0|  - Transmitter BE Bearing: -0.0073142167525031 with a signal strength of 1.1826772268992631
+0| I found 1 transmitter(s):
+0|  - Transmitter BE Bearing: 0.01071472710121446 with a signal strength of 1.5563754909399545
+0| I found 2 transmitter(s):
+0|  - Transmitter BE Bearing: -0.020321426613174154 with a signal strength of 2.079095073902218
+0|  - Transmitter PO Bearing: 1.057077019277516 with a signal strength of 0.26161206453465097
+0| I found 2 transmitter(s):
+0|  - Transmitter BE Bearing: 0.05461600572365244 with a signal strength of 3.2918524982346256
+0|  - Transmitter PO Bearing: 1.0786215900457456 with a signal strength of 0.29116148671348085
+0| I found 2 transmitter(s):
+0|  - Transmitter BE Bearing: 0.1120922720898645 with a signal strength of 5.6932452784126
+0|  - Transmitter PO Bearing: 1.1544502305440216 with a signal strength of 0.29279459545408404
+0| I found 2 transmitter(s):
+0|  - Transmitter BE Bearing: 0.170156617902689 with a signal strength of 11.150378536342059
+0|  - Transmitter PO Bearing: 1.265785653582361 with a signal strength of 0.31017218171362915
+0| I found 0 transmitter(s):
+0| I found 2 transmitter(s):
+0|  - Transmitter PO Bearing: -1.6340129989177967 with a signal strength of 0.31296526968740884
+0|  - Transmitter SW Bearing: -0.10559072419344417 with a signal strength of 0.906297585635894
+0| I found 2 transmitter(s):
+0|  - Transmitter PO Bearing: 0.05571725130476857 with a signal strength of 0.3713210416267286
+0|  - Transmitter SW Bearing: 1.628763023349881 with a signal strength of 0.7109461374250423
+0| I found 2 transmitter(s):
+0|  - Transmitter PO Bearing: 0.021696772065399994 with a signal strength of 0.45518035447983046
+0|  - Transmitter SW Bearing: 1.6910543292352633 with a signal strength of 0.7099802791574998
+0| I found 2 transmitter(s):
+0|  - Transmitter PO Bearing: -0.08467372837735176 with a signal strength of 0.5548798649558573
+0|  - Transmitter SW Bearing: 1.763687589334377 with a signal strength of 0.6905694065708268
+0| I found 2 transmitter(s):
+0|  - Transmitter PO Bearing: 0.009848693582853674 with a signal strength of 0.6679245830096356
+0|  - Transmitter SW Bearing: 1.849647572608275 with a signal strength of 0.6076600513121619
+0| I found 2 transmitter(s):
+0|  - Transmitter PO Bearing: 0.0013571867231645385 with a signal strength of 0.8139966273157432
+0|  - Transmitter SW Bearing: 2.028664333776762 with a signal strength of 0.6040134371785014
+0| I found 2 transmitter(s):
+0|  - Transmitter PO Bearing: -0.05176192935803847 with a signal strength of 0.9806090611245368
+0|  - Transmitter SW Bearing: 2.2040635627559135 with a signal strength of 0.5520653102876983
+0| I found 2 transmitter(s):
+0|  - Transmitter PO Bearing: 0.12052991766751209 with a signal strength of 1.2701697239436767
+0|  - Transmitter SW Bearing: 2.2060287607645144 with a signal strength of 0.4992881345339367
+0| I found 2 transmitter(s):
+0|  - Transmitter PO Bearing: 0.03641139350662037 with a signal strength of 1.8828969391187913
+0|  - Transmitter SW Bearing: 2.218608636297258 with a signal strength of 0.4672180081487355
+0| I found 2 transmitter(s):
+0|  - Transmitter PO Bearing: 0.063042194524352 with a signal strength of 2.546118578967583
+0|  - Transmitter SW Bearing: 2.301477329716132 with a signal strength of 0.4185304679731998
+0| I found 3 transmitter(s):
+0|  - Transmitter PO Bearing: 0.07013809494330392 with a signal strength of 4.303137222162901
+0|  - Transmitter YL Bearing: 0.8546805042467414 with a signal strength of 0.26182436323288155
+0|  - Transmitter SW Bearing: 2.3810119354488486 with a signal strength of 0.3666126758513809
+0| I found 3 transmitter(s):
+0|  - Transmitter PO Bearing: 0.0817556357476219 with a signal strength of 7.516036552029983
+0|  - Transmitter YL Bearing: 1.0031402319535152 with a signal strength of 0.279688253268343
+0|  - Transmitter SW Bearing: 2.4519810142309755 with a signal strength of 0.32075470592134675
+0| I found 1 transmitter(s):
+0|  - Transmitter SW Bearing: 0.8453047401295404 with a signal strength of 0.44374721652060395
+0| I found 1 transmitter(s):
+0|  - Transmitter SW Bearing: -0.0625032032709214 with a signal strength of 0.47634631289286206
+0| I found 1 transmitter(s):
+0|  - Transmitter SW Bearing: -0.17694595238427802 with a signal strength of 0.5760414279532629
+0| I found 1 transmitter(s):
+0|  - Transmitter SW Bearing: -0.14391189679664063 with a signal strength of 0.7472927539215184
+0| I found 1 transmitter(s):
+0|  - Transmitter SW Bearing: -0.08601538639807416 with a signal strength of 0.9160024570805074
+0| I found 1 transmitter(s):
+0|  - Transmitter SW Bearing: -0.19233652939525037 with a signal strength of 1.2157143201389191
+0| I found 1 transmitter(s):
+0|  - Transmitter SW Bearing: -0.2282653029439281 with a signal strength of 1.6089992140125344
+0| I found 1 transmitter(s):
+0|  - Transmitter SW Bearing: -0.2300129153092616 with a signal strength of 2.373965136540535
+0| I found 2 transmitter(s):
+0|  - Transmitter HV Bearing: -1.0422087496928274 with a signal strength of 0.2548178002060195
+0|  - Transmitter SW Bearing: -0.27248716718090193 with a signal strength of 3.4683586930304555
+0| I found 2 transmitter(s):
+0|  - Transmitter HV Bearing: -0.8394671651603547 with a signal strength of 0.27795404887234737
+0|  - Transmitter SW Bearing: -0.05407288352155071 with a signal strength of 4.743957075336674
+0| I found 2 transmitter(s):
+0|  - Transmitter HV Bearing: -0.5839885528565922 with a signal strength of 0.28062122495960135
+0|  - Transmitter SW Bearing: 0.33258578776408587 with a signal strength of 6.312703173053189
+0| I found 2 transmitter(s):
+0|  - Transmitter YL Bearing: -1.4557652030044892 with a signal strength of 1.2047731132690929
+0|  - Transmitter HV Bearing: 0.9571211724087578 with a signal strength of 0.7636008436727775
+0| I found 2 transmitter(s):
+0|  - Transmitter YL Bearing: 0.017436912211519662 with a signal strength of 1.4860811222937123
+0|  - Transmitter HV Bearing: 2.370736469916724 with a signal strength of 0.5835901594500935
+0| I found 2 transmitter(s):
+0|  - Transmitter YL Bearing: 0.06853351103034111 with a signal strength of 1.978389910155647
+0|  - Transmitter HV Bearing: 2.340157343449265 with a signal strength of 0.5283556261458191
+0| I found 2 transmitter(s):
+0|  - Transmitter YL Bearing: 0.06904708828680084 with a signal strength of 2.7593574134197425
+0|  - Transmitter HV Bearing: 2.5035660648996365 with a signal strength of 0.4798527232418795
+0| I found 2 transmitter(s):
+0|  - Transmitter YL Bearing: 0.02004834080040796 with a signal strength of 4.371429799472492
+0|  - Transmitter HV Bearing: 2.5602666942839667 with a signal strength of 0.42351447850466634
+0| I found 2 transmitter(s):
+0|  - Transmitter YL Bearing: 0.053116202537404344 with a signal strength of 8.307132664245904
+0|  - Transmitter HV Bearing: 2.56670594367083 with a signal strength of 0.3691525627208256
+0| I found 0 transmitter(s):

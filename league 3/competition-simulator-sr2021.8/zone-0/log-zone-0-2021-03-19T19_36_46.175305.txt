@@ -1,0 +1,121 @@
+0| Running simulator version sr2021.8 (rev 0a2b69ea8d4ade586abea9d79e389841c3ce9e22)
+0| Using C:\Users\User\Documents\A LEVEL COMPUTER SCIENCE\Student Robotics\league 3\competition-simulator-sr2021.8\zone-0\robot.py for Zone 0
+0| Robot Initialized. Zone: 0, Mode: dev.
+0| Waiting for start signal.
+0| Starting
+0| Initial heading:  2.489842188322456
+0| I found 1 transmitter(s):
+0|  - Transmitter PN Bearing: -0.5892736138355286 with a signal strength of 0.41642580373415067
+0| Heading of PN: 1.9451113420990753
+0| I found 1 transmitter(s):
+0|  - Transmitter PN Bearing: 0.0665845295126255 with a signal strength of 0.40354544639497353
+0| I found 1 transmitter(s):
+0|  - Transmitter PN Bearing: 0.04697693009813486 with a signal strength of 0.43581061923318176
+0| I found 1 transmitter(s):
+0|  - Transmitter PN Bearing: -0.060366821832299244 with a signal strength of 0.4704596488804884
+0| I found 1 transmitter(s):
+0|  - Transmitter PN Bearing: 0.01749008912889627 with a signal strength of 0.5058924204984393
+0| I found 1 transmitter(s):
+0|  - Transmitter PN Bearing: 0.014993476413810214 with a signal strength of 0.5469562602155005
+0| I found 1 transmitter(s):
+0|  - Transmitter PN Bearing: -0.006913458180553889 with a signal strength of 0.5830268701523484
+0| I found 1 transmitter(s):
+0|  - Transmitter PN Bearing: -0.036004910074688645 with a signal strength of 0.6992373486061529
+0| I found 2 transmitter(s):
+0|  - Transmitter PN Bearing: 0.06383722767418298 with a signal strength of 0.732347363036475
+0|  - Transmitter BG Bearing: 1.2110761858585273 with a signal strength of 0.24442600708761708
+0| I found 2 transmitter(s):
+0|  - Transmitter PN Bearing: -0.08330026215780251 with a signal strength of 0.8175290527236809
+0|  - Transmitter BG Bearing: 1.266818844530987 with a signal strength of 0.2575122705346003
+0| I found 2 transmitter(s):
+0|  - Transmitter PN Bearing: -0.06278549835742098 with a signal strength of 0.9771928608115212
+0|  - Transmitter BG Bearing: 1.275353296653835 with a signal strength of 0.2705097339923428
+0| I found 2 transmitter(s):
+0|  - Transmitter PN Bearing: -0.0034296840392684658 with a signal strength of 1.0893288803271695
+0|  - Transmitter BG Bearing: 1.299342581296009 with a signal strength of 0.27114204953660687
+0| I found 2 transmitter(s):
+0|  - Transmitter PN Bearing: 0.04215240410654131 with a signal strength of 1.271360343870318
+0|  - Transmitter BG Bearing: 1.2961840011959251 with a signal strength of 0.2530004619625291
+0| I found 2 transmitter(s):
+0|  - Transmitter PN Bearing: -0.10053811535965984 with a signal strength of 1.4185597384964896
+0|  - Transmitter BG Bearing: 1.3778399966090582 with a signal strength of 0.2845409457557977
+0| I found 2 transmitter(s):
+0|  - Transmitter PN Bearing: -0.02682263637080773 with a signal strength of 1.6929990035926994
+0|  - Transmitter BG Bearing: 1.4341059292715246 with a signal strength of 0.26245565004705845
+0| I found 2 transmitter(s):
+0|  - Transmitter PN Bearing: -0.005134896803387079 with a signal strength of 2.1208644628218174
+0|  - Transmitter BG Bearing: 1.5281921413178807 with a signal strength of 0.29250595611099955
+0| I found 2 transmitter(s):
+0|  - Transmitter PN Bearing: 0.007636518411524573 with a signal strength of 2.491282841344605
+0|  - Transmitter BG Bearing: 1.4635397205499594 with a signal strength of 0.2940333229819157
+0| I found 2 transmitter(s):
+0|  - Transmitter PN Bearing: 0.003558053226961899 with a signal strength of 2.9720184989280347
+0|  - Transmitter BG Bearing: 1.52971034624584 with a signal strength of 0.2934522402015893
+0| I found 2 transmitter(s):
+0|  - Transmitter PN Bearing: -0.056002129207575635 with a signal strength of 3.9108620616990457
+0|  - Transmitter BG Bearing: 1.6279586375774147 with a signal strength of 0.2989354603585317
+0| I found 2 transmitter(s):
+0|  - Transmitter PN Bearing: -0.05385708530608557 with a signal strength of 4.860243084996496
+0|  - Transmitter BG Bearing: 1.6218975113338634 with a signal strength of 0.2875926986735222
+0| I found 2 transmitter(s):
+0|  - Transmitter PN Bearing: -0.017072334508532627 with a signal strength of 6.313858856829553
+0|  - Transmitter BG Bearing: 1.7373822908530576 with a signal strength of 0.28526015786464304
+0| I found 3 transmitter(s):
+0|  - Transmitter EY Bearing: -0.3219733049835529 with a signal strength of 0.6796535034583917
+0|  - Transmitter BG Bearing: 2.1879901430028066 with a signal strength of 0.3558574547851297
+0|  - Transmitter TS Bearing: 1.0953606216833944 with a signal strength of 0.3202637014068099
+0| Heading of EY: 1.8196004619004194
+0| I found 3 transmitter(s):
+0|  - Transmitter EY Bearing: -0.11330556688750981 with a signal strength of 0.7218815007513851
+0|  - Transmitter BG Bearing: 2.4092005633722127 with a signal strength of 0.33507956785800835
+0|  - Transmitter TS Bearing: 1.3890201517485947 with a signal strength of 0.3210985836555744
+0| I found 3 transmitter(s):
+0|  - Transmitter EY Bearing: -0.1556339549561434 with a signal strength of 0.7513332949822222
+0|  - Transmitter BG Bearing: 2.316020537080332 with a signal strength of 0.30649109307848765
+0|  - Transmitter TS Bearing: 1.3778919320789622 with a signal strength of 0.32362950675198987
+0| I found 3 transmitter(s):
+0|  - Transmitter EY Bearing: -0.101710267555994 with a signal strength of 0.9380098104196287
+0|  - Transmitter BG Bearing: 2.382982614367969 with a signal strength of 0.28696633249978853
+0|  - Transmitter TS Bearing: 1.4404712873257062 with a signal strength of 0.334860914012968
+0| I found 3 transmitter(s):
+0|  - Transmitter EY Bearing: -0.13907979028598483 with a signal strength of 1.0625351316588652
+0|  - Transmitter BG Bearing: 2.3930677877906508 with a signal strength of 0.30126268696663006
+0|  - Transmitter TS Bearing: 1.5019201644060145 with a signal strength of 0.32012907947383523
+0| I found 3 transmitter(s):
+0|  - Transmitter EY Bearing: -0.11031618511455754 with a signal strength of 1.1980072547160316
+0|  - Transmitter BG Bearing: 2.4774612832389087 with a signal strength of 0.28249975552753426
+0|  - Transmitter TS Bearing: 1.486791812576398 with a signal strength of 0.3406160992140712
+0| I found 3 transmitter(s):
+0|  - Transmitter EY Bearing: -0.06267686929895788 with a signal strength of 1.3775496197279455
+0|  - Transmitter BG Bearing: 2.428382127901716 with a signal strength of 0.2552250455134267
+0|  - Transmitter TS Bearing: 1.6210297271620757 with a signal strength of 0.32935821403573406
+0| I found 2 transmitter(s):
+0|  - Transmitter EY Bearing: -0.25447993053793017 with a signal strength of 1.5950420187952583
+0|  - Transmitter TS Bearing: 1.5557326188303322 with a signal strength of 0.34541907350756285
+0| I found 2 transmitter(s):
+0|  - Transmitter EY Bearing: -0.10371085724007045 with a signal strength of 1.8551687921625286
+0|  - Transmitter TS Bearing: 1.5390248480624331 with a signal strength of 0.33842662210767577
+0| I found 2 transmitter(s):
+0|  - Transmitter EY Bearing: -0.1467437915797669 with a signal strength of 2.1907293490883037
+0|  - Transmitter TS Bearing: 1.5789301851491027 with a signal strength of 0.3215409035081783
+0| I found 2 transmitter(s):
+0|  - Transmitter EY Bearing: -0.25745736481428505 with a signal strength of 2.7912742775308605
+0|  - Transmitter TS Bearing: 1.7076779458670723 with a signal strength of 0.3325352961036189
+0| I found 2 transmitter(s):
+0|  - Transmitter EY Bearing: -0.23790459605376757 with a signal strength of 3.1812148683288752
+0|  - Transmitter TS Bearing: 1.6604701116287512 with a signal strength of 0.3292949082058787
+0| I found 0 transmitter(s):
+0| Traceback (most recent call last):
+0|   File "sr_controller.py", line 153, in <module>
+0|   File "sr_controller.py", line 149, in main
+0|   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2288.0_x64__qbz5n2kfra8p0\lib\runpy.py", line 265, in run_path
+0|     return _run_module_code(code, init_globals, run_name,
+0|   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2288.0_x64__qbz5n2kfra8p0\lib\runpy.py", line 97, in _run_module_code
+0|     _run_code(code, mod_globals, init_globals,
+0|   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2288.0_x64__qbz5n2kfra8p0\lib\runpy.py", line 87, in _run_code
+0|     exec(code, run_globals)
+0|   File "C:\Users\User\Documents\A LEVEL COMPUTER SCIENCE\Student Robotics\league 3\competition-simulator-sr2021.8\zone-0\robot.py", line 266, in <module>
+0|     claim_alcove()
+0|   File "C:\Users\User\Documents\A LEVEL COMPUTER SCIENCE\Student Robotics\league 3\competition-simulator-sr2021.8\zone-0\robot.py", line 183, in claim_alcove
+0|     while transmitters[0].target_info.station_code != "EY":
+0| IndexError: list index out of range

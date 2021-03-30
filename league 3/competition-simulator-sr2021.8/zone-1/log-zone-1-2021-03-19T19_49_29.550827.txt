@@ -1,0 +1,65 @@
+1| Using C:\Users\User\Documents\A LEVEL COMPUTER SCIENCE\Student Robotics\league 3\competition-simulator-sr2021.8\zone-1\robot.py for Zone 1
+1| Robot Initialized. Zone: 1, Mode: dev.
+1| Waiting for start signal.
+1| Starting
+1| Initial heading:  3.8958815333466283
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: 0.4576914897835187 with a signal strength of 0.40486006840767325
+1| Heading of YL: 4.580622151019421
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: -0.13548777674748713 with a signal strength of 0.4228673227262565
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: -0.15520048980053502 with a signal strength of 0.41837075965931086
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: -0.1312881363939482 with a signal strength of 0.4284334947077037
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: -0.02897083108776144 with a signal strength of 0.484806869583879
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: -0.12428882325689639 with a signal strength of 0.5648927195113688
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: -0.1034830453966249 with a signal strength of 0.6076525752930613
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: -0.17974520461482957 with a signal strength of 0.6362735535260905
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: -0.2653079171020547 with a signal strength of 0.7196480078585455
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: -0.18219531680048995 with a signal strength of 0.7980790428160922
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: -0.24133517549137906 with a signal strength of 0.9138306169424375
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: -0.16264048094126338 with a signal strength of 0.9948953849997095
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: -0.2605306760008528 with a signal strength of 1.158607915547137
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: -0.22456568217533146 with a signal strength of 1.2336187639136007
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: -0.3596933681394079 with a signal strength of 1.502042156244828
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: -0.30453433075764824 with a signal strength of 1.7482846775207392
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: -0.28974792460436927 with a signal strength of 2.077100205368599
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: -0.3818170641367731 with a signal strength of 2.645080260023826
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: -0.3490790068937635 with a signal strength of 3.1652791387401082
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: -0.39445964279137513 with a signal strength of 3.6881610969501746
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: -0.4910647567772166 with a signal strength of 4.976083534764888
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: -0.47583147994511954 with a signal strength of 6.488700472797705
+1| I found 0 transmitter(s):
+1| Traceback (most recent call last):
+1|   File "sr_controller.py", line 153, in <module>
+1|   File "sr_controller.py", line 149, in main
+1|   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2288.0_x64__qbz5n2kfra8p0\lib\runpy.py", line 265, in run_path
+1|     return _run_module_code(code, init_globals, run_name,
+1|   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2288.0_x64__qbz5n2kfra8p0\lib\runpy.py", line 97, in _run_module_code
+1|     _run_code(code, mod_globals, init_globals,
+1|   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2288.0_x64__qbz5n2kfra8p0\lib\runpy.py", line 87, in _run_code
+1|     exec(code, run_globals)
+1|   File "C:\Users\User\Documents\A LEVEL COMPUTER SCIENCE\Student Robotics\league 3\competition-simulator-sr2021.8\zone-1\robot.py", line 268, in <module>
+1|     claim_alcove()
+1|   File "C:\Users\User\Documents\A LEVEL COMPUTER SCIENCE\Student Robotics\league 3\competition-simulator-sr2021.8\zone-1\robot.py", line 228, in claim_alcove
+1|     while transmitters[0].target_info.station_code != "PO":
+1| IndexError: list index out of range

@@ -1,0 +1,32 @@
+1| Using C:\Users\User\Documents\A LEVEL COMPUTER SCIENCE\Student Robotics\league 3\competition-simulator-sr2021.8\zone-1\robot.py for Zone 1
+1| Robot Initialized. Zone: 1, Mode: dev.
+1| Waiting for start signal.
+1| Starting
+1| Initial heading:  3.998910928548381
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: 0.4116866137907014 with a signal strength of 0.4156341914269704
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: 0.5079920177278949 with a signal strength of 0.4156724427459067
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: 0.05504769613536764 with a signal strength of 0.4028959135184335
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: -0.0418613482107304 with a signal strength of 0.4122991131375899
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: -0.02956016537891415 with a signal strength of 0.46346340707953715
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: -0.16735779975422282 with a signal strength of 0.47042456399807403
+1| I found 0 transmitter(s):
+1| Traceback (most recent call last):
+1|   File "sr_controller.py", line 153, in <module>
+1|   File "sr_controller.py", line 149, in main
+1|   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2288.0_x64__qbz5n2kfra8p0\lib\runpy.py", line 265, in run_path
+1|     return _run_module_code(code, init_globals, run_name,
+1|   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2288.0_x64__qbz5n2kfra8p0\lib\runpy.py", line 97, in _run_module_code
+1|     _run_code(code, mod_globals, init_globals,
+1|   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2288.0_x64__qbz5n2kfra8p0\lib\runpy.py", line 87, in _run_code
+1|     exec(code, run_globals)
+1|   File "C:\Users\User\Documents\A LEVEL COMPUTER SCIENCE\Student Robotics\league 3\competition-simulator-sr2021.8\zone-1\robot.py", line 260, in <module>
+1|     init_head = heading()
+1|   File "C:\Users\User\Documents\A LEVEL COMPUTER SCIENCE\Student Robotics\league 3\competition-simulator-sr2021.8\zone-1\robot.py", line 219, in claim_alcove
+1|     claim("YL")
+1| IndexError: list index out of range

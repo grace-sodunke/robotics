@@ -1,0 +1,149 @@
+1| Using C:\Users\User\Documents\A LEVEL COMPUTER SCIENCE\Student Robotics\league 2\competition-simulator-SR2021.4\zone-1\robot.py for Zone 1
+1| Robot Initialized. Zone: 1, Mode: dev.
+1| Waiting for start signal.
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: 0.3547016691790934 with a signal strength of 0.45780804017157944
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: 0.3554455074934584 with a signal strength of 0.4591992664733592
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: 0.05859160186792334 with a signal strength of 0.458668137470138
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: 0.05957927132025853 with a signal strength of 0.4731994390262962
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: 0.06089019588418365 with a signal strength of 0.5135238277568899
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: 0.062242509451893024 with a signal strength of 0.5704018553165209
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: 0.06974450796676424 with a signal strength of 0.6287604103769512
+1| I found 1 transmitter(s):
+1|  - Transmitter YL Bearing: 0.07968994205407753 with a signal strength of 0.6958362280428516
+1| I found 2 transmitter(s):
+1|  - Transmitter YL Bearing: 0.08730578446228199 with a signal strength of 0.7747393347391558
+1|  - Transmitter HV Bearing: -1.1604129030445973 with a signal strength of 0.25587883663550437
+1| I found 2 transmitter(s):
+1|  - Transmitter YL Bearing: 0.09324657242188872 with a signal strength of 0.8679167500799297
+1|  - Transmitter HV Bearing: -1.189241337367907 with a signal strength of 0.26231769133966604
+1| I found 2 transmitter(s):
+1|  - Transmitter YL Bearing: 0.09977618835376179 with a signal strength of 0.9813618726686248
+1|  - Transmitter HV Bearing: -1.2195831766119518 with a signal strength of 0.26860966700321354
+1| I found 2 transmitter(s):
+1|  - Transmitter YL Bearing: 0.10540374758070392 with a signal strength of 1.1153131457463403
+1|  - Transmitter HV Bearing: -1.251205623086726 with a signal strength of 0.2744144217759645
+1| I found 2 transmitter(s):
+1|  - Transmitter YL Bearing: 0.11008399341477704 with a signal strength of 1.2815622410196632
+1|  - Transmitter HV Bearing: -1.2857475159971843 with a signal strength of 0.27986982099439994
+1| I found 2 transmitter(s):
+1|  - Transmitter YL Bearing: 0.11763570480257579 with a signal strength of 1.4832085116730334
+1|  - Transmitter HV Bearing: -1.3183476619241592 with a signal strength of 0.2848135154837278
+1| I found 2 transmitter(s):
+1|  - Transmitter YL Bearing: 0.12543125015074752 with a signal strength of 1.7391755379661993
+1|  - Transmitter HV Bearing: -1.3529606346660508 with a signal strength of 0.28931266307141124
+1| I found 2 transmitter(s):
+1|  - Transmitter YL Bearing: 0.1328442905583409 with a signal strength of 2.076071661774237
+1|  - Transmitter HV Bearing: -1.3910819592944819 with a signal strength of 0.29327978915084185
+1| I found 2 transmitter(s):
+1|  - Transmitter YL Bearing: 0.14582535759935267 with a signal strength of 2.509952770673949
+1|  - Transmitter HV Bearing: -1.4255929720033471 with a signal strength of 0.2966077013369707
+1| I found 2 transmitter(s):
+1|  - Transmitter YL Bearing: 0.1653938244557165 with a signal strength of 3.084850385141686
+1|  - Transmitter HV Bearing: -1.4566527388335615 with a signal strength of 0.29937034593430084
+1| I found 2 transmitter(s):
+1|  - Transmitter YL Bearing: 0.17847050615044324 with a signal strength of 3.9081320762324694
+1|  - Transmitter HV Bearing: -1.4986460418292946 with a signal strength of 0.3012302763923406
+1| I found 2 transmitter(s):
+1|  - Transmitter YL Bearing: 0.19674903232280672 with a signal strength of 5.099800372802155
+1|  - Transmitter HV Bearing: -1.539708282204634 with a signal strength of 0.30216215580025557
+1| I found 2 transmitter(s):
+1|  - Transmitter YL Bearing: 0.2311938219369014 with a signal strength of 6.910175454360747
+1|  - Transmitter HV Bearing: -1.5731506267963704 with a signal strength of 0.3024510139401089
+1| I found 3 transmitter(s):
+1|  - Transmitter PO Bearing: 0.40184654122975516 with a signal strength of 0.5973526000060145
+1|  - Transmitter HV Bearing: -2.031200023895339 with a signal strength of 0.38089433338289946
+1|  - Transmitter SW Bearing: -1.0102501474351913 with a signal strength of 0.32329781313790473
+1| I found 3 transmitter(s):
+1|  - Transmitter PO Bearing: 0.06161812431545366 with a signal strength of 0.6125409596202228
+1|  - Transmitter HV Bearing: -2.346405673830375 with a signal strength of 0.367688159891082
+1|  - Transmitter SW Bearing: -1.341466781416245 with a signal strength of 0.31522459015381443
+1| I found 3 transmitter(s):
+1|  - Transmitter PO Bearing: 0.06381285820985161 with a signal strength of 0.6589548103921792
+1|  - Transmitter HV Bearing: -2.3662496007834437 with a signal strength of 0.3536817250983305
+1|  - Transmitter SW Bearing: -1.3669544757305747 with a signal strength of 0.31881716481790395
+1| I found 3 transmitter(s):
+1|  - Transmitter PO Bearing: 0.06884088100514063 with a signal strength of 0.7415489248942823
+1|  - Transmitter HV Bearing: -2.393965962275115 with a signal strength of 0.33312733561716595
+1|  - Transmitter SW Bearing: -1.4059151502049954 with a signal strength of 0.32364246705203986
+1| I found 3 transmitter(s):
+1|  - Transmitter PO Bearing: 0.07448758270767453 with a signal strength of 0.8342377344610657
+1|  - Transmitter HV Bearing: -2.4180017639379106 with a signal strength of 0.31494055768511114
+1|  - Transmitter SW Bearing: -1.442381693443557 with a signal strength of 0.32730921388616113
+1| I found 3 transmitter(s):
+1|  - Transmitter PO Bearing: 0.07983188695080567 with a signal strength of 0.9359232923082791
+1|  - Transmitter HV Bearing: -2.4392610135463966 with a signal strength of 0.299131547750006
+1|  - Transmitter SW Bearing: -1.4761930010568332 with a signal strength of 0.3298624023269474
+1| I found 3 transmitter(s):
+1|  - Transmitter PO Bearing: 0.0818358234287917 with a signal strength of 1.0598849801677126
+1|  - Transmitter HV Bearing: -2.4630705438704292 with a signal strength of 0.2838713072618396
+1|  - Transmitter SW Bearing: -1.5144590817931451 with a signal strength of 0.33147774698288185
+1| I found 3 transmitter(s):
+1|  - Transmitter PO Bearing: 0.08982245810362421 with a signal strength of 1.2111622440313348
+1|  - Transmitter HV Bearing: -2.481092572839971 with a signal strength of 0.26949221721300626
+1|  - Transmitter SW Bearing: -1.5482641760129034 with a signal strength of 0.33238552725648696
+1| I found 3 transmitter(s):
+1|  - Transmitter PO Bearing: 0.0954032213874898 with a signal strength of 1.3963993293759591
+1|  - Transmitter HV Bearing: -2.5012081740836365 with a signal strength of 0.2560234555687762
+1|  - Transmitter SW Bearing: -1.5850121334988092 with a signal strength of 0.33239757364992584
+1| I found 2 transmitter(s):
+1|  - Transmitter PO Bearing: 0.10178717766372714 with a signal strength of 1.633860342533138
+1|  - Transmitter SW Bearing: -1.6232037202254173 with a signal strength of 0.33153832438847886
+1| I found 2 transmitter(s):
+1|  - Transmitter PO Bearing: 0.10990858714641671 with a signal strength of 1.9360264129451075
+1|  - Transmitter SW Bearing: -1.6609379984937434 with a signal strength of 0.3298403441922884
+1| I found 2 transmitter(s):
+1|  - Transmitter PO Bearing: 0.12060906056155307 with a signal strength of 2.3292129933437273
+1|  - Transmitter SW Bearing: -1.697785618746833 with a signal strength of 0.3273305183941869
+1| I found 2 transmitter(s):
+1|  - Transmitter PO Bearing: 0.13484714724575797 with a signal strength of 2.8648803731009234
+1|  - Transmitter SW Bearing: -1.734130683090715 with a signal strength of 0.32396055176937694
+1| I found 2 transmitter(s):
+1|  - Transmitter PO Bearing: 0.15288970327093088 with a signal strength of 3.597332940837454
+1|  - Transmitter SW Bearing: -1.7690273553992935 with a signal strength of 0.31983350073420447
+1| I found 2 transmitter(s):
+1|  - Transmitter PO Bearing: 0.1749779562898124 with a signal strength of 4.6207184257464755
+1|  - Transmitter SW Bearing: -1.8023940750707927 with a signal strength of 0.3150717883790357
+1| I found 2 transmitter(s):
+1|  - Transmitter PO Bearing: 0.2040647044663273 with a signal strength of 6.212164881224809
+1|  - Transmitter SW Bearing: -1.836608007580499 with a signal strength of 0.3094389356679974
+1| 1.1828475390048414
+1| 1.15831378158531
+1| 1.2200218413613941
+1| 0.2140098197455295
+1| 0.21697903312107292
+1| 1.2736936997007289
+1| 1.2919832251255643
+1| 1.2698372129287452
+1| 1.290080567665788
+1| 1.3544747562274726
+1| 1.3253937874001065
+1| 1.3945864928265648
+1| 1.4081136180033076
+1| 1.3795019211635526
+1| 1.4119211041872484
+1| 1.4655586941136567
+1| 1.4472229297858998
+1| 1.5246239706037332
+1| 1.5120542265572572
+1| 1.549636731776046
+1| 2.0
+1| 2.0
+1| 2.0
+1| 2.0
+1| 2.0
+1| 1.9782601225524985
+1| 1.9764256479729136
+1| 2.0
+1| 2.0
+1| 1.9887962316104488
+1| 2.0
+1| 1.9684233427429314
+1| 2.0
+1| 1.9857208873335201

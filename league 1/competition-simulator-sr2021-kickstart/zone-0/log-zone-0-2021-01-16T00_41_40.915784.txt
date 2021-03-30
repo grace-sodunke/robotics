@@ -1,0 +1,1100 @@
+0| Running simulator version sr2020-knockouts-196-ga3856da (rev a3856da5a63c700fcd3a021170477fa65be5e9e0)
+0| Using C:\Users\User\Documents\A LEVEL COMPUTER SCIENCE\Student Robotics\competition-simulator-sr2021-kickstart\zone-0\robot.py for Zone 0
+0| DEPRECATION: Robot.getMotor is deprecated, please use Robot.getDevice instead.
+0| DEPRECATION: Robot.getMotor is deprecated, please use Robot.getDevice instead.
+0| DEPRECATION: Robot.getDistanceSensor is deprecated, please use Robot.getDevice instead.
+0| DEPRECATION: Robot.getDistanceSensor is deprecated, please use Robot.getDevice instead.
+0| DEPRECATION: Robot.getDistanceSensor is deprecated, please use Robot.getDevice instead.
+0| DEPRECATION: Robot.getDistanceSensor is deprecated, please use Robot.getDevice instead.
+0| DEPRECATION: Robot.getDistanceSensor is deprecated, please use Robot.getDevice instead.
+0| DEPRECATION: Robot.getDistanceSensor is deprecated, please use Robot.getDevice instead.
+0| DEPRECATION: Robot.getTouchSensor is deprecated, please use Robot.getDevice instead.
+0| DEPRECATION: Robot.getTouchSensor is deprecated, please use Robot.getDevice instead.
+0| DEPRECATION: Robot.getLED is deprecated, please use Robot.getDevice instead.
+0| DEPRECATION: Robot.getLED is deprecated, please use Robot.getDevice instead.
+0| DEPRECATION: Robot.getLED is deprecated, please use Robot.getDevice instead.
+0| DEPRECATION: Robot.getLED is deprecated, please use Robot.getDevice instead.
+0| DEPRECATION: Robot.getLED is deprecated, please use Robot.getDevice instead.
+0| DEPRECATION: Robot.getLED is deprecated, please use Robot.getDevice instead.
+0| DEPRECATION: Robot.getCamera is deprecated, please use Robot.getDevice instead.
+0| DEPRECATION: Robot.getReceiver is deprecated, please use Robot.getDevice instead.
+0| DEPRECATION: Robot.getEmitter is deprecated, please use Robot.getDevice instead.
+0| Robot Initialized. Zone: 0, Mode: comp.
+0| Waiting for start signal.
+0| I found 1 transmitter(s):
+0|  - Transmitter PN Bearing: -0.4646434575365914 with a signal strength of 0.39358875633746604
+0| StationCode.PN
+0| 0.3946131886413382
+0| StationCode.PN
+0| 0.3977023825283699
+0| StationCode.PN
+0| 0.41106735646562625
+0| StationCode.PN
+0| 0.43069058209208344
+0| StationCode.PN
+0| 0.462647758948101
+0| StationCode.PN
+0| 0.504992712478014
+0| StationCode.PN
+0| 0.6054992748270371
+0| StationCode.PN
+0| 0.661854397581183
+0| StationCode.PN
+0| 0.7304505198872493
+0| StationCode.PN
+0| 0.8086226023329482
+0| StationCode.PN
+0| 0.9000217287580298
+0| StationCode.PN
+0| 1.0245551208483321
+0| StationCode.PN
+0| 1.1623902336178862
+0| StationCode.PN
+0| 1.5414909977380646
+0| 0
+0| StationCode.PN
+0| Bearing: 0.18154405142671326
+0| 1
+0| StationCode.PN
+0| Bearing: 0.09357707158536677
+0| 2
+0| StationCode.PN
+0| Bearing: 0.0415193629737316
+0| 3
+0| StationCode.PN
+0| Bearing: -0.014102947116723996
+0| 4
+0| StationCode.PN
+0| Bearing: -0.07329548843921074
+0| 5
+0| StationCode.PN
+0| Bearing: -0.1347913357523982
+0| 6
+0| StationCode.PN
+0| Bearing: -0.2757331902978466
+0| 7
+0| StationCode.PN
+0| Bearing: -0.35737225140593765
+0| 8
+0| StationCode.PN
+0| Bearing: -0.43859104210316957
+0| 9
+0| StationCode.PN
+0| Bearing: -0.5282797647931385
+0| 10
+0| StationCode.PN
+0| Bearing: -0.6271003017069212
+0| 11
+0| StationCode.PN
+0| Bearing: -0.7324808573089712
+0| 12
+0| StationCode.PN
+0| Bearing: -0.8442677264797629
+0| 13
+0| StationCode.PN
+0| Bearing: -1.1003027000118113
+0| 14
+0| StationCode.PN
+0| Bearing: -1.2355288146178474
+0| 15
+0| StationCode.PN
+0| Bearing: -1.3811356719003935
+0| 16
+0| StationCode.PN
+0| Bearing: -1.5242697616549208
+0| 17
+0| StationCode.PN
+0| Bearing: -1.6665819297572435
+0| False 0
+0| I found 3 transmitter(s):
+0|  - Transmitter PN Bearing: -1.8685210642428043 with a signal strength of 5.608293705090694
+0|  - Transmitter EY Bearing: -0.7397574988759033 with a signal strength of 0.30533719044637964
+0|  - Transmitter BG Bearing: 1.135917057528602 with a signal strength of 0.3868065016991471
+0| StationCode.EY
+0| 0.3053371989850592
+0| StationCode.EY
+0| 0.3066704705897372
+0| StationCode.EY
+0| 0.3172814112814833
+0| StationCode.EY
+0| 0.3376489642272284
+0| StationCode.EY
+0| 0.36300279561697796
+0| StationCode.EY
+0| 0.4191005952788307
+0| StationCode.EY
+0| 0.45263832567455836
+0| StationCode.EY
+0| 0.49210134726983623
+0| StationCode.EY
+0| 0.5373037730941692
+0| StationCode.EY
+0| 0.5879873482013229
+0| StationCode.EY
+0| 0.6465068467665173
+0| StationCode.EY
+0| 0.7146075262005258
+0| StationCode.EY
+0| 0.887015793235284
+0| StationCode.EY
+0| 0.9954121021204143
+0| StationCode.EY
+0| 1.1237835956519977
+0| StationCode.EY
+0| 1.2787251751862379
+0| StationCode.EY
+0| 1.4664088696858562
+0| StationCode.EY
+0| 1.6992548292119016
+0| 0
+0| Bearing: 0.09855202068070534
+0| 1
+0| Bearing: 0.27188291932232156
+0| 2
+0| Bearing: 0.23340843712014037
+0| 3
+0| Bearing: 0.18281266051083112
+0| 4
+0| Bearing: 0.13327639841476868
+0| 5
+0| Bearing: 0.07934449519158626
+0| 6
+0| Bearing: 0.019216773461395054
+0| 7
+0| Bearing: -0.04356405171777311
+0| 8
+0| Bearing: -0.18937044962381755
+0| 9
+0| Bearing: -0.27563164245384186
+0| 10
+0| Bearing: -0.3744512236637956
+0| 11
+0| Bearing: -0.48542636858892685
+0| 12
+0| Bearing: -0.6190809465367249
+0| 13
+0| Bearing: -0.7773197351457455
+0| 14
+0| Bearing: -0.9573605400423224
+0| 15
+0| Bearing: -0.916394996413957
+0| 16
+0| Bearing: -0.8739230688428758
+0| 17
+0| Bearing: -0.8243808908209749
+0| 18
+0| Bearing: -0.7699824032541454
+0| 19
+0| Bearing: -0.7090867561361476
+0| 20
+0| Bearing: -0.6363677054559211
+0| 21
+0| Bearing: -0.5467380378213331
+0| 22
+0| Bearing: -0.34452712439134014
+0| 23
+0| Bearing: -0.26567894258797686
+0| 24
+0| Bearing: -0.23497479508476538
+0| 25
+0| Bearing: -0.23673274484731266
+0| 26
+0| Bearing: -0.23782515111474645
+0| 27
+0| Bearing: -0.23780705454821138
+0| 28
+0| Bearing: -0.23748989431841672
+0| 29
+0| Bearing: -0.2366718536684811
+0| 30
+0| Bearing: -0.23622593756272803
+0| 31
+0| Bearing: -0.235830808594379
+0| 32
+0| Bearing: -0.2354104048976735
+0| 33
+0| Bearing: -0.23498495723440094
+0| 34
+0| Bearing: -0.2345989282522254
+0| 35
+0| Bearing: -0.23424116944327444
+0| 36
+0| Bearing: -0.23348813516370015
+0| 37
+0| Bearing: -0.2330918459203586
+0| 38
+0| Bearing: -0.23267636928577495
+0| 39
+0| Bearing: -0.23227276512402195
+0| 40
+0| Bearing: -0.2318781466056148
+0| 41
+0| Bearing: -0.23147246318993453
+0| 42
+0| Bearing: -0.23105320377639416
+0| 43
+0| Bearing: -0.23021850281499834
+0| 44
+0| Bearing: -0.22978593422824733
+0| 45
+0| Bearing: -0.22937355595129905
+0| 46
+0| Bearing: -0.22897121217224914
+0| 47
+0| Bearing: -0.2285451237996936
+0| 48
+0| Bearing: -0.22811646837152022
+0| 49
+0| Bearing: -0.2277044267039372
+0| 50
+0| Bearing: -0.2268491413616882
+0| 51
+0| True 1
+0| I found 4 transmitter(s):
+0|  - Transmitter PN Bearing: -2.078404826266665 with a signal strength of 1.3224151698814746
+0|  - Transmitter EY Bearing: -0.3034544107166006 with a signal strength of 0.5822634852199956
+0|  - Transmitter BG Bearing: 2.343305185156297 with a signal strength of 0.4171828832874099
+0|  - Transmitter TS Bearing: 1.2261016193059804 with a signal strength of 0.3848594194031048
+0| StationCode.EY
+0| 0.5823224010828028
+0| StationCode.EY
+0| 0.5859327470230971
+0| StationCode.EY
+0| 0.6197687545708295
+0| StationCode.EY
+0| 0.6846513206773925
+0| StationCode.EY
+0| 0.7709317419141092
+0| StationCode.EY
+0| 0.86564161529999
+0| StationCode.EY
+0| 1.0880402309027333
+0| StationCode.EY
+0| 1.2324025231890114
+0| StationCode.EY
+0| 1.4113377018033695
+0| StationCode.EY
+0| 1.6280821630175901
+0| 0
+0| Bearing: -0.14499924077168647
+0| 1
+0| Bearing: -0.06755764845432566
+0| 2
+0| Bearing: -0.08435711237375187
+0| 3
+0| Bearing: -0.21934070008257933
+0| 4
+0| Bearing: -0.2898648030051696
+0| 5
+0| Bearing: -0.36908244749501584
+0| 6
+0| Bearing: -0.45568260167342345
+0| 7
+0| Bearing: -0.5485004807219269
+0| 8
+0| Bearing: -0.6467101761064038
+0| 9
+0| Bearing: -0.7523843153722343
+0| 10
+0| Bearing: -0.9970238482470002
+0| 11
+0| Bearing: -1.1262443024604067
+0| 12
+0| Bearing: -1.2628986208608923
+0| 13
+0| Bearing: -1.4072554666723667
+0| 14
+0| Bearing: -1.55133837234023
+0| 15
+0| Bearing: -1.6906104366534471
+0| False 0
+0| I found 4 transmitter(s):
+0|  - Transmitter PN Bearing: 3.1240933505912416 with a signal strength of 0.31945019667732555
+0|  - Transmitter EY Bearing: -1.8978303918178518 with a signal strength of 5.463474727107288
+0|  - Transmitter BE Bearing: -0.43659116150976285 with a signal strength of 0.3495661374295489
+0|  - Transmitter TS Bearing: 1.5465119996247452 with a signal strength of 0.35336733856443764
+0| StationCode.BE
+0| 0.3495661496878013
+0| StationCode.BE
+0| 0.35282930985825944
+0| StationCode.BE
+0| 0.37079780065186696
+0| StationCode.BE
+0| 0.4019563084118573
+0| StationCode.BE
+0| 0.43921024655816615
+0| StationCode.BE
+0| 0.4773624637910839
+0| StationCode.BE
+0| 0.5656032640021874
+0| StationCode.BE
+0| 0.6201575304590219
+0| StationCode.BE
+0| 0.6835870283872542
+0| StationCode.BE
+0| 0.7575721084119593
+0| StationCode.BE
+0| 0.844395997007848
+0| StationCode.BE
+0| 0.9457207906051968
+0| StationCode.BE
+0| 1.066886400718261
+0| StationCode.BE
+0| 1.3833954178083576
+0| StationCode.BE
+0| 1.5956932739481413
+0| 0
+0| Bearing: -0.13224550915419186
+0| 1
+0| Bearing: -0.06356396631784555
+0| 2
+0| Bearing: -0.10179566249881855
+0| 3
+0| Bearing: -0.16451262964715507
+0| 4
+0| Bearing: -0.22890219105471488
+0| 5
+0| Bearing: -0.38183807741292597
+0| 6
+0| Bearing: -0.4664726573252729
+0| 7
+0| Bearing: -0.5614388223285358
+0| 8
+0| Bearing: -0.664725485907045
+0| 9
+0| Bearing: -0.7733022439012593
+0| 10
+0| Bearing: -0.8860261948697268
+0| 11
+0| Bearing: -1.0051768183080299
+0| 12
+0| Bearing: -1.268530957210853
+0| 13
+0| Bearing: -1.4075324458635965
+0| 14
+0| Bearing: -1.5471382452585623
+0| 15
+0| Bearing: -1.682227052106537
+0| False 0
+0| I found 4 transmitter(s):
+0|  - Transmitter EY Bearing: 2.897329887605049 with a signal strength of 0.36172107255454
+0|  - Transmitter BE Bearing: -1.8345286175393607 with a signal strength of 5.240085333356814
+0|  - Transmitter VB Bearing: 1.1946284727221128 with a signal strength of 0.3577981397127606
+0|  - Transmitter SZ Bearing: -0.11506647349990562 with a signal strength of 0.2637943963165493
+0| StationCode.VB
+0| 0.357798145011682
+0| StationCode.VB
+0| 0.36041425437767155
+0| StationCode.VB
+0| 0.37066161370516815
+0| StationCode.VB
+0| 0.38671506088598767
+0| StationCode.VB
+0| 0.4057014457569233
+0| StationCode.VB
+0| 0.42689528004187316
+0| StationCode.VB
+0| 0.4507775095337709
+0| StationCode.VB
+0| 0.47897524858996665
+0| StationCode.VB
+0| 0.5518126385012964
+0| StationCode.VB
+0| 0.5990065706141389
+0| StationCode.VB
+0| 0.6540433902058793
+0| StationCode.VB
+0| 0.7197952575556058
+0| StationCode.VB
+0| 0.7993501529757561
+0| StationCode.VB
+0| 0.8917150671565778
+0| StationCode.VB
+0| 1.0014276637794037
+0| StationCode.VB
+0| 1.2904474218154522
+0| StationCode.VB
+0| 1.474138608462783
+0| StationCode.VB
+0| 1.7040140216614226
+0| 0
+0| StationCode.VB
+0| Bearing: 0.1313563025014246
+0| 1
+0| StationCode.VB
+0| Bearing: 0.031239285477657308
+0| 2
+0| StationCode.VB
+0| Bearing: -0.03183626101943737
+0| 3
+0| StationCode.VB
+0| Bearing: -0.0960850716644348
+0| 4
+0| StationCode.VB
+0| Bearing: -0.2321895925025439
+0| 5
+0| StationCode.VB
+0| Bearing: -0.30746521044836506
+0| 6
+0| StationCode.VB
+0| Bearing: -0.3886521406893628
+0| 7
+0| StationCode.VB
+0| Bearing: -0.47681516166861826
+0| 8
+0| StationCode.VB
+0| Bearing: -0.5756503034227993
+0| 9
+0| StationCode.VB
+0| Bearing: -0.6826805854741114
+0| 10
+0| StationCode.VB
+0| Bearing: -0.7945414020287052
+0| 11
+0| StationCode.VB
+0| Bearing: -1.0555000877563252
+0| 12
+0| StationCode.VB
+0| Bearing: -1.2016693409590529
+0| 13
+0| StationCode.VB
+0| Bearing: -1.3529662325662777
+0| 14
+0| StationCode.VB
+0| Bearing: -1.5051771477863962
+0| 15
+0| StationCode.VB
+0| Bearing: -1.6527365299071501
+0| False 0
+0| I found 3 transmitter(s):
+0|  - Transmitter BE Bearing: 2.2328568382335297 with a signal strength of 0.2981669232284574
+0|  - Transmitter TS Bearing: 0.26940853187662217 with a signal strength of 0.4105418986398119
+0|  - Transmitter VB Bearing: -1.8583492904844103 with a signal strength of 6.115653635869849
+0| StationCode.TS
+0| 0.4105419129710336
+0| StationCode.TS
+0| 0.41708751242614284
+0| StationCode.TS
+0| 0.44411617732131575
+0| StationCode.TS
+0| 0.4875370262067766
+0| StationCode.TS
+0| 0.5369839084431504
+0| StationCode.TS
+0| 0.5886589294027627
+0| StationCode.TS
+0| 0.6460829335045382
+0| StationCode.TS
+0| 0.7926884066501794
+0| StationCode.TS
+0| 0.881579699665762
+0| StationCode.TS
+0| 0.9851827207017776
+0| StationCode.TS
+0| 1.1118257493491503
+0| StationCode.TS
+0| 1.267023001819023
+0| StationCode.TS
+0| 1.455725515787684
+0| StationCode.TS
+0| 1.6783233703683313
+0| 0
+0| StationCode.TS
+0| Bearing: 0.17800828380118494
+0| 1
+0| StationCode.TS
+0| Bearing: 0.09060905197541214
+0| 2
+0| StationCode.TS
+0| Bearing: 0.035087576913948926
+0| 3
+0| StationCode.TS
+0| Bearing: -0.02101725922240405
+0| 4
+0| StationCode.TS
+0| Bearing: -0.0822411592836767
+0| 5
+0| StationCode.TS
+0| Bearing: -0.1514820251171871
+0| 6
+0| StationCode.TS
+0| Bearing: -0.2278115665628473
+0| 7
+0| StationCode.TS
+0| Bearing: -0.3961627042846434
+0| 8
+0| StationCode.TS
+0| Bearing: -0.48871254129355624
+0| 9
+0| StationCode.TS
+0| Bearing: -0.5938951566232369
+0| 10
+0| StationCode.TS
+0| Bearing: -0.7129963136344308
+0| 11
+0| StationCode.TS
+0| Bearing: -0.8465471422549662
+0| 12
+0| StationCode.TS
+0| Bearing: -0.9942342399133404
+0| 13
+0| StationCode.TS
+0| Bearing: -1.1552324003082601
+0| 14
+0| StationCode.TS
+0| Bearing: -1.2352222378912838
+0| 15
+0| StationCode.TS
+0| Bearing: -1.2162031996234317
+0| 16
+0| StationCode.TS
+0| Bearing: -1.1963652893613794
+0| 17
+0| StationCode.TS
+0| Bearing: -1.1698125015903535
+0| 18
+0| StationCode.TS
+0| Bearing: -1.1278757007042959
+0| 19
+0| StationCode.TS
+0| Bearing: -1.0916621464852216
+0| 20
+0| StationCode.TS
+0| Bearing: -1.0564685690161175
+0| 21
+0| StationCode.TS
+0| Bearing: -1.0019285772769315
+0| 22
+0| StationCode.TS
+0| Bearing: -0.9730957227522827
+0| 23
+0| StationCode.TS
+0| Bearing: -0.9405600400951384
+0| 24
+0| StationCode.TS
+0| Bearing: -0.9020156055731654
+0| 25
+0| StationCode.TS
+0| Bearing: -0.8561385440867122
+0| 26
+0| StationCode.TS
+0| Bearing: -0.8031056111025006
+0| 27
+0| StationCode.TS
+0| Bearing: -0.7419231621608695
+0| 28
+0| StationCode.TS
+0| Bearing: -0.5952778286668838
+0| 29
+0| StationCode.TS
+0| Bearing: -0.5019191940128493
+0| 30
+0| StationCode.TS
+0| Bearing: -0.40046508815363513
+0| 31
+0| StationCode.TS
+0| Bearing: -0.31773900858032533
+0| 32
+0| StationCode.TS
+0| Bearing: -0.2802788854852363
+0| 33
+0| StationCode.TS
+0| Bearing: -0.2808187732976215
+0| 34
+0| StationCode.TS
+0| Bearing: -0.28195061142771394
+0| 35
+0| StationCode.TS
+0| Bearing: -0.2813039939136637
+0| 36
+0| StationCode.TS
+0| Bearing: -0.2807044627745947
+0| 37
+0| StationCode.TS
+0| Bearing: -0.28008869365988076
+0| 38
+0| StationCode.TS
+0| Bearing: -0.27947060351893427
+0| 39
+0| StationCode.TS
+0| Bearing: -0.27885278998762253
+0| 40
+0| StationCode.TS
+0| Bearing: -0.27823577737331817
+0| 41
+0| StationCode.TS
+0| Bearing: -0.2776196901220924
+0| 42
+0| StationCode.TS
+0| Bearing: -0.27656048470044325
+0| 43
+0| StationCode.TS
+0| Bearing: -0.2760344211486583
+0| 44
+0| StationCode.TS
+0| Bearing: -0.2754845212885382
+0| 45
+0| StationCode.TS
+0| Bearing: -0.2749212774982954
+0| 46
+0| StationCode.TS
+0| Bearing: -0.27435077379532125
+0| 47
+0| StationCode.TS
+0| Bearing: -0.27377650871048953
+0| 48
+0| StationCode.TS
+0| Bearing: -0.2732004836724844
+0| 49
+0| StationCode.TS
+0| Bearing: -0.2720472276884154
+0| 50
+0| StationCode.TS
+0| Bearing: -0.2714710162152727
+0| 51
+0| StationCode.TS
+0| True 1
+0| I found 3 transmitter(s):
+0|  - Transmitter EY Bearing: 2.1924567957605117 with a signal strength of 0.4187270874271396
+0|  - Transmitter TS Bearing: 0.04659027158964646 with a signal strength of 1.7605693807650766
+0|  - Transmitter VB Bearing: -1.9626814755347528 with a signal strength of 0.5629932313490941
+0| StationCode.TS
+0| 1.7605694051909935
+0| 0
+0| StationCode.TS
+0| Bearing: 0.047608042861629674
+0| 1
+0| StationCode.TS
+0| Bearing: 0.017651991332333417
+0| 2
+0| StationCode.TS
+0| Bearing: -0.044688887671034294
+0| 3
+0| StationCode.TS
+0| Bearing: -0.10838391748180776
+0| 4
+0| StationCode.TS
+0| Bearing: -0.23974224582676928
+0| 5
+0| StationCode.TS
+0| Bearing: -0.3103437176738879
+0| 6
+0| StationCode.TS
+0| Bearing: -0.3894239265160486
+0| 7
+0| StationCode.TS
+0| Bearing: -0.47238511063550526
+0| 8
+0| StationCode.TS
+0| Bearing: -0.5603341263310977
+0| 9
+0| StationCode.TS
+0| Bearing: -0.6576659956898316
+0| 10
+0| StationCode.TS
+0| Bearing: -0.7650416176365091
+0| 11
+0| StationCode.TS
+0| Bearing: -1.004608682937974
+0| 12
+0| StationCode.TS
+0| Bearing: -1.1382420728566247
+0| 13
+0| StationCode.TS
+0| Bearing: -1.2721399987279982
+0| 14
+0| StationCode.TS
+0| Bearing: -1.4102084293842196
+0| 15
+0| StationCode.TS
+0| Bearing: -1.548046981485455
+0| 16
+0| StationCode.TS
+0| Bearing: -1.68209368144176
+0| False 0
+0| I found 5 transmitter(s):
+0|  - Transmitter EY Bearing: 1.789442990673376 with a signal strength of 0.3485406111718585
+0|  - Transmitter BG Bearing: -0.20638693915295292 with a signal strength of 0.39495213155805725
+0|  - Transmitter OX Bearing: -1.1395929697969382 with a signal strength of 0.2689938868797149
+0|  - Transmitter TS Bearing: -1.8733912336303433 with a signal strength of 5.124209615021711
+0|  - Transmitter VB Bearing: -2.9569298222132847 with a signal strength of 0.2754480935499203
+0| StationCode.BG
+0| 0.394952146782487
+0| StationCode.BG
+0| 0.39758399750369805
+0| StationCode.BG
+0| 0.4179051256775585
+0| StationCode.BG
+0| 0.4557855983783125
+0| StationCode.BG
+0| 0.5019130598550915
+0| StationCode.BG
+0| 0.6022195242106017
+0| StationCode.BG
+0| 0.6619545839378882
+0| StationCode.BG
+0| 0.7308531276805008
+0| StationCode.BG
+0| 0.81162043592402
+0| StationCode.BG
+0| 0.9077287491962543
+0| StationCode.BG
+0| 1.0226761921398095
+0| StationCode.BG
+0| 1.1556330782026845
+0| StationCode.BG
+0| 1.5160352969523128
+0| 0
+0| Bearing: -0.02641804014133875
+0| 1
+0| Bearing: 0.03372509148935565
+0| 2
+0| Bearing: -0.007962824801098556
+0| 3
+0| Bearing: -0.065738816793524
+0| 4
+0| Bearing: -0.12827659600363273
+0| 5
+0| Bearing: -0.19834486201004786
+0| 6
+0| Bearing: -0.34219442073729933
+0| 7
+0| Bearing: -0.42038000571130496
+0| 8
+0| Bearing: -0.505113021897527
+0| 9
+0| Bearing: -0.5973107721904984
+0| 10
+0| Bearing: -0.7006363812009706
+0| 11
+0| Bearing: -0.8145530069485964
+0| 12
+0| Bearing: -0.9371937872352873
+0| 13
+0| Bearing: -1.2056353202641414
+0| 14
+0| Bearing: -1.3449267946093597
+0| 15
+0| Bearing: -1.4921286390901818
+0| 16
+0| Bearing: -1.6351003028903879
+0| False 0
+0| I found 4 transmitter(s):
+0|  - Transmitter PN Bearing: 1.1685662289662213 with a signal strength of 0.38219750001147385
+0|  - Transmitter BG Bearing: -1.8188531489439015 with a signal strength of 5.837113056594715
+0|  - Transmitter OX Bearing: -2.4258113813926743 with a signal strength of 0.28099448903856455
+0|  - Transmitter TS Bearing: 2.8765107783629102 with a signal strength of 0.37426664101918256
+0| StationCode.OX
+0| 0.28099448312969183
+0| StationCode.OX
+0| 0.2776830590608154
+0| StationCode.OX
+0| 0.2679034280516081
+0| StationCode.OX
+0| 0.2563809457496595
+0| StationCode.TS
+0| 0.29801245897529766
+0| StationCode.PN
+0| 0.38911365436006645
+0| StationCode.PN
+0| 0.3801855967412396
+0| StationCode.PN
+0| 0.37344196613352904
+0| StationCode.PN
+0| 0.3735932223062149
+0| StationCode.PN
+0| 0.3756156285996499
+0| StationCode.PN
+0| 0.3796001174781408
+0| StationCode.PN
+0| 0.3856641106461071
+0| StationCode.PN
+0| 0.3936945928805882
+0| StationCode.PN
+0| 0.4039906959257382
+0| StationCode.PN
+0| 0.4224382429920165
+0| StationCode.PN
+0| 0.44178779662018935
+0| StationCode.PN
+0| 0.4625736929552908
+0| StationCode.PN
+0| 0.4622996448277407
+0| StationCode.PN
+0| 0.462376702520511
+0| StationCode.PN
+0| 0.4623941577422388
+0| StationCode.PN
+0| 0.4624071004994426
+0| StationCode.PN
+0| 0.4624307687296308
+0| StationCode.PN
+0| 0.4624412190456614
+0| StationCode.PN
+0| 0.4624507560157953
+0| StationCode.PN
+0| 0.4624594712930549
+0| StationCode.PN
+0| 0.4624674726631624
+0| StationCode.PN
+0| 0.4624748008799163
+0| StationCode.PN
+0| 0.46247992776292346
+0| StationCode.PN
+0| 0.4624904197320003
+0| StationCode.PN
+0| 0.4624953580297582
+0| StationCode.PN
+0| 0.4624999338594071
+0| StationCode.PN
+0| 0.4625041353643343
+0| StationCode.PN
+0| 0.4625079745463408
+0| StationCode.PN
+0| 0.4625114717727296
+0| StationCode.PN
+0| 0.4625146496849217
+0| StationCode.PN
+0| 0.46252013663914937
+0| StationCode.PN
+0| 0.46252248734591705
+0| StationCode.PN
+0| 0.4625246016963627
+0| StationCode.PN
+0| 0.4625264970959451
+0| StationCode.PN
+0| 0.4625281896578761
+0| StationCode.PN
+0| 0.46252969428597807
+0| StationCode.PN
+0| 0.46253102475901103
+0| StationCode.PN
+0| 0.46253321321443225
+0| StationCode.PN
+0| 0.4625340722347786
+0| StationCode.PN
+0| 0.4625342724718806
+0| StationCode.PN
+0| 0.4625339582611114
+0| StationCode.PN
+0| 0.4625333979452898
+0| StationCode.PN
+0| 0.4625327102530995
+0| StationCode.PN
+0| 0.46253194876506437
+0| StationCode.PN
+0| 0.46253029082350366
+0| StationCode.PN
+0| 0.4625294123960905
+0| True 1
+0| I found 2 transmitter(s):
+0|  - Transmitter BG Bearing: 1.4588064906084721 with a signal strength of 2.051333986303592
+0|  - Transmitter OX Bearing: 2.520558177876323 with a signal strength of 0.2980371305457834
+0| StationCode.BG
+0| 2.051334004963151
+0| 0
+0| StationCode.BG
+0| Bearing: 1.4894356270317364
+0| 1
+0| StationCode.BG
+0| Bearing: 1.5064558593315451
+0| 2
+0| StationCode.BG
+0| Bearing: 1.5008655325199436
+0| 3
+0| StationCode.BG
+0| Bearing: 1.4958975962920866
+0| 4
+0| StationCode.BG
+0| Bearing: 1.4938420714286087
+0| 5
+0| StationCode.BG
+0| Bearing: 1.4892429264948468
+0| 6
+0| StationCode.BG
+0| Bearing: 1.482783693073215
+0| 7
+0| StationCode.BG
+0| Bearing: 1.4804699286153291
+0| 8
+0| StationCode.BG
+0| Bearing: 1.481041394293395
+0| 9
+0| StationCode.BG
+0| Bearing: 1.4830083083049845
+0| 10
+0| StationCode.BG
+0| Bearing: 1.485616788660372
+0| 11
+0| StationCode.BG
+0| Bearing: 1.4889201346405612
+0| 12
+0| StationCode.BG
+0| Bearing: 1.4949060230050455
+0| 13
+0| StationCode.BG
+0| Bearing: 1.4978601987330997
+0| 14
+0| StationCode.BG
+0| Bearing: 1.499358632696472
+0| 15
+0| StationCode.BG
+0| Bearing: 1.5007438405433973
+0| 16
+0| StationCode.BG
+0| Bearing: 1.502495468762141
+0| 17
+0| StationCode.BG
+0| Bearing: 1.5056947647919308
+0| 18
+0| StationCode.BG
+0| Bearing: 1.509823084019777
+0| 19
+0| StationCode.BG
+0| Bearing: 1.5185339833087
+0| 20
+0| StationCode.BG
+0| Bearing: 1.5242673913582363
+0| 21
+0| StationCode.BG
+0| Bearing: 1.5344124366594227
+0| 22
+0| StationCode.BG
+0| Bearing: 1.5450463064435798
+0| 23
+0| StationCode.BG
+0| Bearing: 1.5571056096336378
+0| 24
+0| StationCode.BG
+0| Bearing: 1.5679396910456087
+0| 25
+0| StationCode.BG
+0| Bearing: 1.5765590052287208
+0| 26
+0| StationCode.BG
+0| Bearing: 1.5990113054031707
+0| 27
+0| StationCode.BG
+0| Bearing: 1.6078148520542705
+0| 28
+0| StationCode.BG
+0| Bearing: 1.6169827113973982
+0| 29
+0| StationCode.BG
+0| Bearing: 1.6298390608805857
+0| 30
+0| StationCode.BG
+0| Bearing: 1.644536918268441
+0| 31
+0| StationCode.BG
+0| Bearing: 1.6574065858993683
+0| 32
+0| StationCode.BG
+0| Bearing: 1.6680675368075253
+0| 33
+0| StationCode.BG
+0| Bearing: 1.6902729456348202
+0| 34
+0| StationCode.BG
+0| Bearing: 1.702407160458662
+0| 35
+0| StationCode.BG
+0| Bearing: 1.7170141990264205
+0| 36
+0| StationCode.BG
+0| Bearing: 1.733364727772679
+0| 37
+0| StationCode.BG
+0| Bearing: 1.7465672485336665
+0| 38
+0| StationCode.BG
+0| Bearing: 1.7567889423795382
+0| 39
+0| StationCode.BG
+0| Bearing: 1.7667975024993283
+0| 40
+0| StationCode.BG
+0| Bearing: 1.7878692531186098
+0| 41
+0| StationCode.BG
+0| Bearing: 1.8008410196302438
+0| 42
+0| StationCode.BG
+0| Bearing: 1.811405312764885
+0| 43
+0| StationCode.BG
+0| Bearing: 1.8192645870076334
+0| 44
+0| StationCode.BG
+0| Bearing: 1.8296212662438993
+0| 45
+0| StationCode.BG
+0| Bearing: 1.8423795876696598
+0| 46
+0| StationCode.BG
+0| Bearing: 1.8534316012892125
+0| 47
+0| StationCode.BG
+0| Bearing: 1.8723145085586037
+0| 48
+0| StationCode.BG
+0| Bearing: 1.8813466231246125
+0| 49
+0| StationCode.BG
+0| Bearing: 1.8861154751209148
+0| 50
+0| StationCode.BG
+0| Bearing: 1.8925216441340798
+0| 51
+0| StationCode.BG
+0| True 2
+0| I found 2 transmitter(s):
+0|  - Transmitter PN Bearing: 0.7002639398179586 with a signal strength of 0.44539997731890807
+0|  - Transmitter BG Bearing: 2.4155219416243767 with a signal strength of 0.8425690572709493
+0| StationCode.PN
+0| 0.4460055961601811
+0| StationCode.PN
+0| 0.44599061659833245
+0| StationCode.PN
+0| 0.4459766726830243
+0| StationCode.PN
+0| 0.44597221198470527
+0| StationCode.PN
+0| 0.445968653655944
+0| StationCode.PN
+0| 0.4459652160085773
+0| StationCode.PN
+0| 0.44595890805418187
+0| StationCode.PN
+0| 0.44595601956353154
+0| StationCode.PN
+0| 0.44595327596273965
+0| StationCode.PN
+0| 0.445950622978877
+0| StationCode.PN
+0| 0.4459481607699496
+0| StationCode.PN
+0| 0.44594584959652994
+0| StationCode.PN
+0| 0.44594367268643464
+0| StationCode.PN
+0| 0.44593967279337504
+0| StationCode.PN
+0| 0.44593783188794006
+0| StationCode.PN
+0| 0.44593608753337943
+0| StationCode.PN
+0| 0.44593443372260555
+0| StationCode.PN
+0| 0.4459328650411973
+0| StationCode.PN
+0| 0.44593137654987436
+0| StationCode.PN
+0| 0.44592996371217825
+0| StationCode.PN
+0| 0.44592734858089783
+0| Traceback (most recent call last):
+0|   File "sr_controller.py", line 254, in <module>
+0|   File "sr_controller.py", line 250, in main
+0|   File "<string>", line 218, in <module>
+0| IndexError: list index out of range

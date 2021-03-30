@@ -1,0 +1,13 @@
+0| Running simulator version sr2021.8 (rev 0a2b69ea8d4ade586abea9d79e389841c3ce9e22)
+0| Using C:\Users\User\Documents\A LEVEL COMPUTER SCIENCE\Student Robotics\league 3\competition-simulator-sr2021.8\zone-0\robot.py for Zone 0
+0| Traceback (most recent call last):
+0|   File "sr_controller.py", line 153, in <module>
+0|   File "sr_controller.py", line 149, in main
+0|   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2288.0_x64__qbz5n2kfra8p0\lib\runpy.py", line 264, in run_path
+0|     code, fname = _get_code_from_file(run_name, path_name)
+0|   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.2288.0_x64__qbz5n2kfra8p0\lib\runpy.py", line 239, in _get_code_from_file
+0|     code = compile(f.read(), fname, 'exec')
+0|   File "C:\Users\User\Documents\A LEVEL COMPUTER SCIENCE\Student Robotics\league 3\competition-simulator-sr2021.8\zone-0\robot.py", line 97
+0|     elif captured[-1] = "TS":
+0|                       ^
+0| SyntaxError: invalid syntax
