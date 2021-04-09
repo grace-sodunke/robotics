@@ -87,21 +87,21 @@ def get_transmitters():
 
 def claim_three():
 	if R.zone == 0:
-		turnR(0.46)
-		move(70, 3.1)
+		turnR(0.45)
+		move(100, 2.17)
 		claim('OX')
 		move(-70, 0.3)
 		t = R.radio.sweep()
 		if t[0].bearing < -0.5:
-			turnL(0.7, 10, 80)
+			turnL(0.75, 10, 80)
 		else:
 			turnL(0.6, 10, 70)
-		move(70, 1.5)
+		move(100, 1)
 		if heading() > math.pi * (5/9):
 			turnL(0.2)
 		else:
 			turnL(0.1)
-		move(70, 2)
+		move(100, 1.35)
 		t = get_transmitters() # Only at this point will it detect TS
 		while t[0].target_info.station_code != "TS":
 			t.pop(0)
@@ -110,25 +110,25 @@ def claim_three():
 		else:
 			turnR(0.1)
 		while t[0].signal_strength < 5:
-			ml.power = 70
-			mr.power = 70
+			ml.power = 90
+			mr.power = 90
 			t = get_transmitters()
 		stop()
 		claim('TS')
 		if t[0].bearing < -0.5: # After claiming, it might be on the right side of the tower or face southeast. 
-			move(-70, 1) # In this case, it should reverse more and curve to the left side
-			turnL(0.7, 10, 70)
-			move(70, 2.4)
+			move(-100, 0.75) # In this case, it should reverse more and curve to the left side
+			turnL(0.75, 10, 70)
+			move(100, 1.77)
 		elif heading() > math.pi * (5/9):
-			move(-70, 0.5)
+			move(-100, 0.4)
 			turnL(0.7, 10, 70)
-			move(70, 2.2)
+			move(100, 1.63)
 		else:
-			move(-70, 0.5)
-			turnL(0.6, 10, 70)
-			move(70, 2.2)
+			move(-100, 0.45)
+			turnL(0.65, 10, 70)
+			move(100, 1.63)
 		claim('VB')
-		# Should take about 21.7s to claim first three
+		# Should take about 18.6s to claim first three
 		# Still need to test 100000 times and fix everywhere it goes wrong
 
 def wall_block(b):
@@ -174,13 +174,13 @@ claim_three()
 
 
 if R.zone == 0:
-	move(-70, 1)
+	move(-100, 0.7)
 	turnR(0.6, 70, 10)
-	move(70, 1)
+	move(100, 0.7)
 	next_tower = get_target()
 	while True:
 		if captured[-1] not in ("VB", "SZ", "PL"):
-			move(-70, 0.7)
+			move(-100, 0.49)
 		print("Target is ", next_tower)
 		t = get_transmitters()
 		while t[0].target_info.station_code != next_tower:
@@ -191,20 +191,20 @@ if R.zone == 0:
 		else:
 			turnR(d)
 		while t[0].signal_strength < 5.5:
-			ml.power = 70
-			mr.power = 70
+			ml.power = 100
+			mr.power = 100
 			t = get_transmitters()
 			while t[0].target_info.station_code != next_tower:
 				t.pop(0)
 		stop()
 		claim(next_tower)
 		if captured[-1] == "SZ":
-			move(-70, 0.7)
+			move(-100, 0.49)
 			turnR(rev / 4)
-			move(70, 1)
+			move(100, 0.7)
 		elif captured[-1] == "PL":
-			move(-70, 0.7)
+			move(-100, 0.49)
 			turnL(rev * (5/12))
-			move(70, 1)
+			move(100, 0.7)
 		next_tower = get_target()
 		
