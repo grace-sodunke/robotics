@@ -73,7 +73,7 @@ def get_transmitters():
 	targets = []
 	transmitters = R.radio.sweep()
 	for tx in transmitters:
-		if tx.target_info.owned_by != R.zone:
+		if tx.target_info.owned_by != R.zone and tx.signal_strength < 10:
 			targets.append(tx)
 	print("I found", len(targets), "transmitter(s):")
 
@@ -87,7 +87,10 @@ def get_transmitters():
 
 def claim_three():
 	if R.zone == 0:
-		turnR(0.45)
+		print(heading())
+		a = (2.94 - heading()) / (2 * math.pi)
+		turnR(a * rev)
+		print(heading())
 		move(100, 2.17)
 		claim('OX')
 		move(-70, 0.3)
@@ -164,11 +167,11 @@ def get_target():
 	print(towers)
 	closest = towers[0]
 	for tower in towers:
-		if tower.signal_strength > closest.signal_strength and tower.target_info.station_code not in captured: # It has once tried to reclaim HA?
+		if tower.signal_strength > closest.signal_strength and tower.target_info.station_code not in captured:
 			closest = tower
 	return closest.target_info.station_code
 
-rev = 2.1
+rev = 2
 captured = []
 claim_three()
 
@@ -202,9 +205,16 @@ if R.zone == 0:
 			move(-100, 0.49)
 			turnR(rev / 4)
 			move(100, 0.7)
+			# If PL is also captured, then the next target must be HV
+			# Robot is currently facing southest so it should turn until facing due east
+			# Move forward a bit then turn until facing northeast
+			# Move forward a bit more then take exact bearing of HV and move forward until it reaches HV (careful to not collide with wall)
 		elif captured[-1] == "PL":
 			move(-100, 0.49)
 			turnL(rev * (5/12))
 			move(100, 0.7)
+			# Additional movement if SZ has already been captured (it needs to move forward past SZ to HV)
+			#Turn until facing northeast then move forward
+			#Small, precise movements until it is close enough to take exact bearing of HV and face towards it (careful to not collide with wall)
 		next_tower = get_target()
 		
