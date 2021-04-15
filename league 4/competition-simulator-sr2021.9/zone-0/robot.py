@@ -100,18 +100,15 @@ def claim_three():
 		else:
 			turnL(0.6, 10, 70)
 		move(100, 1)
-		if heading() > math.pi * (5/9):
-			turnL(0.2)
+		d = abs((heading() - 1.39)) / (2 * math.pi) # Turning until approx. 80 degrees (ENE)
+		if heading() > math.pi * (4/9):
+			turnL(d * rev)
 		else:
-			turnL(0.1)
+			turnR(d * rev)
 		move(100, 1.35)
 		t = get_transmitters() # Only at this point will it detect TS
 		while t[0].target_info.station_code != "TS":
 			t.pop(0)
-		if t[0].bearing > math.pi * (2/9):
-			turnR(0.2)
-		else:
-			turnR(0.1)
 		while t[0].signal_strength < 5:
 			ml.power = 90
 			mr.power = 90
@@ -120,19 +117,30 @@ def claim_three():
 		claim('TS')
 		if t[0].bearing < -0.5: # After claiming, it might be on the right side of the tower or face southeast. 
 			move(-100, 0.75) # In this case, it should reverse more and curve to the left side
-			turnL(0.75, 10, 70)
-			move(100, 1.77)
-		elif heading() > math.pi * (5/9):
-			move(-100, 0.4)
-			turnL(0.7, 10, 70)
-			move(100, 1.63)
 		else:
-			move(-100, 0.45)
-			turnL(0.65, 10, 70)
-			move(100, 1.63)
+			move(-100, 0.45) 
+		print(heading())
+		d = (heading() - 0.45) / (2 * math.pi) # Turning until approx. 40 degrees (NE)
+		turnL(d * rev)
+		print(heading())
+		move(100, 1.5)
+		t = get_transmitters()
+		while t[0].target_info.station_code != "VB":
+				t.pop(0)
+		d = abs(t[0].bearing) / (2 * math.pi)
+		if t[0].bearing < 0:
+			turnL(d * rev)
+		else:
+			turnR(d * rev)
+		while t[0].signal_strength < 5:
+			ml.power = 90
+			mr.power = 90
+			t = get_transmitters()
+			while t[0].target_info.station_code != "VB":
+				t.pop(0)
+		stop()
 		claim('VB')
 		# Should take about 18.6s to claim first three
-		# Still need to test 100000 times and fix everywhere it goes wrong
 
 def wall_block(b):
 	perim = 1.5
@@ -165,16 +173,18 @@ def get_target():
 		if tower.target_info.station_code != "HA" and wall_block(tower.bearing) == True or tower.target_info.station_code in ("EY", "YT"): # HA is never obstructed by a wall
 			towers.remove(tower) # The left distance sensor is not accurate enough to detect that a wall is close after claiming HA
 	print(towers)
-	closest = towers[0]
-	for tower in towers:
-		if tower.signal_strength > closest.signal_strength and tower.target_info.station_code not in captured:
-			closest = tower
-	return closest.target_info.station_code
+	if "SZ" in captured and "PL" in captured:
+		return "HV"
+	else:
+		closest = towers[0]
+		for tower in towers:
+			if tower.signal_strength > closest.signal_strength and tower.target_info.station_code not in captured:
+				closest = tower
+		return closest.target_info.station_code
 
 rev = 2
 captured = []
 claim_three()
-
 
 if R.zone == 0:
 	move(-100, 0.7)
@@ -193,7 +203,7 @@ if R.zone == 0:
 			turnL(d)
 		else:
 			turnR(d)
-		while t[0].signal_strength < 5.5:
+		while t[0].signal_strength < 5:
 			ml.power = 100
 			mr.power = 100
 			t = get_transmitters()
@@ -205,16 +215,21 @@ if R.zone == 0:
 			move(-100, 0.49)
 			turnR(rev / 4)
 			move(100, 0.7)
-			# If PL is also captured, then the next target must be HV
-			# Robot is currently facing southest so it should turn until facing due east
-			# Move forward a bit then turn until facing northeast
-			# Move forward a bit more then take exact bearing of HV and move forward until it reaches HV (careful to not collide with wall)
+			if "PL" in captured:
+				d = (heading() - 1.55) / (2 * math.pi) # Turning until approx. 90 degrees (E)
+				turnL(d * rev)
+				move(100, 1)
 		elif captured[-1] == "PL":
-			move(-100, 0.49)
-			turnL(rev * (5/12))
+			move(-100, 0.7)
+			if heading() < math.pi:
+				d = (heading() + 0.1) / (2 * math.pi) # Turning until approx. 0 degrees (N)
+				turnL(d * rev)
+			else:
+				turnL(rev * (5/12))
 			move(100, 0.7)
-			# Additional movement if SZ has already been captured (it needs to move forward past SZ to HV)
-			#Turn until facing northeast then move forward
-			#Small, precise movements until it is close enough to take exact bearing of HV and face towards it (careful to not collide with wall)
+			if "SZ" in captured:
+				d = (heading() - 0.7) / (2 * math.pi) # Turning until approx. 45 degrees (NE)
+				turnL(d * rev)
+				move(100, 2)
 		next_tower = get_target()
 		
