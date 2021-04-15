@@ -91,7 +91,10 @@ def claim_three():
 		a = (2.94 - heading()) / (2 * math.pi)
 		turnR(a * rev)
 		print(heading())
-		move(100, 2.17)
+		print(heading() < 2.86)
+		if heading() < 2.86:
+			turnR(0.1)
+		move(100, 2.2)
 		claim('OX')
 		move(-70, 0.3)
 		t = R.radio.sweep()
@@ -170,11 +173,13 @@ def get_target():
 				towers.remove(tower)
 	print(towers)
 	for tower in towers:
-		if tower.target_info.station_code != "HA" and wall_block(tower.bearing) == True or tower.target_info.station_code in ("EY", "YT"): # HA is never obstructed by a wall
-			towers.remove(tower) # The left distance sensor is not accurate enough to detect that a wall is close after claiming HA
+		if (tower.target_info.station_code != "HA" and wall_block(tower.bearing) == True) or (tower.target_info.station_code in ("EY", "YT") and "HV" not in captured):
+			towers.remove(tower) # The left distance sensor does not detect that a wall is close after claiming HA
 	print(towers)
-	if "SZ" in captured and "PL" in captured:
+	if "SZ" in captured and "PL" in captured and captured[-1] in ("SZ", "PL"):
 		return "HV"
+	elif captured[-1] == "HV":
+		return "PO"
 	else:
 		closest = towers[0]
 		for tower in towers:
@@ -184,6 +189,10 @@ def get_target():
 
 rev = 2
 captured = []
+if R.zone == 0:
+	captured.append('0') # The robot must check which towers connect to its starting zone
+else:
+	captured.append('1')
 claim_three()
 
 if R.zone == 0:
@@ -192,7 +201,7 @@ if R.zone == 0:
 	move(100, 0.7)
 	next_tower = get_target()
 	while True:
-		if captured[-1] not in ("VB", "SZ", "PL"):
+		if captured[-1] not in ("VB", "SZ", "PL", "HV"):
 			move(-100, 0.49)
 		print("Target is ", next_tower)
 		t = get_transmitters()
@@ -222,14 +231,25 @@ if R.zone == 0:
 		elif captured[-1] == "PL":
 			move(-100, 0.7)
 			if heading() < math.pi:
+				move(-100, 0.3)
 				d = (heading() + 0.1) / (2 * math.pi) # Turning until approx. 0 degrees (N)
 				turnL(d * rev)
 			else:
 				turnL(rev * (5/12))
 			move(100, 0.7)
 			if "SZ" in captured:
-				d = (heading() - 0.7) / (2 * math.pi) # Turning until approx. 45 degrees (NE)
+				d = (heading() - 0.65) / (2 * math.pi) # Turning until approx. 45 degrees (NE)
 				turnL(d * rev)
-				move(100, 2)
+				move(100, 1.6)
+		elif captured[-1] == "HV": # Manoeuvre around wall to top of arena
+			move(-100, 0.6)
+			d = (1.7 - heading()) / (2 * math.pi)
+			turnR(d * rev)
+			move(100, 1.1)
+			d = (heading() + 0.1) / (2 * math.pi)
+			turnL(d * rev)
+			move(100, 1)
+			turnL(0.6)
+			move(100, 1)
 		next_tower = get_target()
 		
