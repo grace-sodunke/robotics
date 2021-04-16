@@ -85,67 +85,125 @@ def get_transmitters():
 		))
 	return targets
 
-def claim_three():
-	if R.zone == 0:
-		print(heading())
-		a = (2.94 - heading() + 0.05) / (2 * math.pi)
-		turnR(a * rev)
-		print(heading())
-		move(100, 2.2)
-		claim('OX')
-		move(-70, 0.35)
-		t = R.radio.sweep()
-		if t[0].bearing < -0.5:
-			turnL(0.75, 10, 80)
-		else:
-			turnL(0.6, 10, 70)
-		move(100, 1)
-		d = abs((heading() - 1.39)) / (2 * math.pi) # Turning until approx. 80 degrees (ENE)
-		if heading() > math.pi * (4/9):
-			turnL(d * rev)
-		else:
-			turnR(d * rev)
-		move(100, 1.35)
-		t = get_transmitters() # Only at this point will it detect TS
-		while t[0].target_info.station_code != "TS":
-			t.pop(0)
-		d = abs(t[0].bearing) / (2 * math.pi)
-		if t[0].bearing < 0:
-			turnL(d * rev)
-		else:
-			turnR(d * rev)
-		while t[0].signal_strength < 5:
-			ml.power = 90
-			mr.power = 90
-			t = get_transmitters()
-		stop()
-		claim('TS')
-		if t[0].bearing < -0.5: # After claiming, it might be on the right side of the tower or face southeast. 
-			move(-100, 0.75) # In this case, it should reverse more and curve to the left side
-		else:
-			move(-100, 0.45) 
-		print(heading())
-		d = (heading() - 0.45) / (2 * math.pi) # Turning until approx. 40 degrees (NE)
+def claim_three_p():
+	print(heading())
+	a = (2.94 - heading() + 0.05) / (2 * math.pi)
+	turnR(a * rev)
+	print(heading())
+	move(100, 2.2)
+	claim('OX')
+	move(-70, 0.35)
+	t = R.radio.sweep()
+	if t[0].bearing < -0.5:
+		turnL(0.75, 10, 80)
+	else:
+		turnL(0.6, 10, 70)
+	move(100, 1)
+	d = abs((heading() - 1.39)) / (2 * math.pi) # Turning until approx. 80 degrees (ENE)
+	if heading() > math.pi * (4/9):
 		turnL(d * rev)
-		print(heading())
-		move(100, 1.5)
+	else:
+		turnR(d * rev)
+	move(100, 1.35)
+	t = get_transmitters() # Only at this point will it detect TS
+	while t[0].target_info.station_code != "TS":
+		t.pop(0)
+	d = abs(t[0].bearing) / (2 * math.pi)
+	if t[0].bearing < 0:
+		turnL(d * rev)
+	else:
+		turnR(d * rev)
+	while t[0].signal_strength < 5:
+		ml.power = 90
+		mr.power = 90
+		t = get_transmitters()
+	stop()
+	claim('TS')
+	if t[0].bearing < -0.5: # After claiming, it might be on the right side of the tower or face southeast. 
+		move(-100, 0.75) # In this case, it should reverse more
+	else:
+		move(-100, 0.45) 
+	print(heading())
+	d = (heading() - 0.45) / (2 * math.pi) # Turning until approx. 40 degrees (NE)
+	turnL(d * rev)
+	print(heading())
+	move(100, 1.5)
+	t = get_transmitters()
+	while t[0].target_info.station_code != "VB":
+			t.pop(0)
+	d = abs(t[0].bearing) / (2 * math.pi)
+	if t[0].bearing < 0:
+		turnL(d * rev)
+	else:
+		turnR(d * rev)
+	while t[0].signal_strength < 5:
+		ml.power = 90
+		mr.power = 90
 		t = get_transmitters()
 		while t[0].target_info.station_code != "VB":
-				t.pop(0)
-		d = abs(t[0].bearing) / (2 * math.pi)
-		if t[0].bearing < 0:
-			turnL(d * rev)
-		else:
-			turnR(d * rev)
-		while t[0].signal_strength < 5:
-			ml.power = 90
-			mr.power = 90
-			t = get_transmitters()
-			while t[0].target_info.station_code != "VB":
-				t.pop(0)
-		stop()
-		claim('VB')
-		# Should take about 18.6s to claim first three
+			t.pop(0)
+	stop()
+	claim('VB')
+def claim_three_y():
+	print(heading())
+	a = abs((3.34 - heading() - 0.05)) / (2 * math.pi)
+	turnL(a * rev)
+	print(heading())
+	move(100, 2.2)
+	claim('BN')
+	move(-70, 0.4)
+	t = R.radio.sweep()
+	if t[0].bearing > 0.5:
+		turnL(0.6, 80, 10)
+	else:
+		turnL(0.6, 70, 10)
+	move(100, 1)
+	d = abs(heading() - 4.9) / (2 * math.pi) # Turning until approx. 80 degrees (ENE)
+	if heading() < math.pi * (14/9):
+		turnR(d * rev)
+	else:
+		turnL(d * rev)
+	move(100, 1.35)
+	t = get_transmitters() # Only at this point will it detect SW
+	while t[0].target_info.station_code != "SW":
+		t.pop(0)
+	d = abs(t[0].bearing) / (2 * math.pi)
+	if t[0].bearing < 0:
+		turnL(d * rev)
+	else:
+		turnR(d * rev)
+	while t[0].signal_strength < 5:
+		ml.power = 90
+		mr.power = 90
+		t = get_transmitters()
+	stop()
+	claim('SW')
+	if t[0].bearing > 0.5: # After claiming, it might be on the left side of the tower or face southwest. 
+		move(-100, 0.8) # In this case, it should reverse more
+	else:
+		move(-100, 0.5) 
+	print(heading())
+	d = abs(heading() - 6) / (2 * math.pi) # Turning until approx. 340 degrees (NNW)
+	turnR(d * rev)
+	print(heading())
+	move(100, 1.5)
+	t = get_transmitters()
+	while t[0].target_info.station_code != "SZ":
+			t.pop(0)
+	d = abs(t[0].bearing) / (2 * math.pi)
+	if t[0].bearing < 0:
+		turnL(d * rev)
+	else:
+		turnR(d * rev)
+	while t[0].signal_strength < 5:
+		ml.power = 90
+		mr.power = 90
+		t = get_transmitters()
+		while t[0].target_info.station_code != "SZ":
+			t.pop(0)
+	stop()
+	claim('SZ')
+
 
 def wall_block(b):
 	perim = 1.5
@@ -175,57 +233,88 @@ def get_target():
 				towers.remove(tower)
 	print(towers)
 	for tower in towers:
-		if (tower.target_info.station_code != "HA" and wall_block(tower.bearing) == True) or (tower.target_info.station_code in ("EY", "YT") and "HV" not in captured):
-			if len(towers) > 1:
-				towers.remove(tower) # The left distance sensor does not detect that a wall is close after claiming HA
+		if R.zone == 0:
+			if (tower.target_info.station_code != "HA" and wall_block(tower.bearing) == True) or (tower.target_info.station_code in ("EY", "YT") and "HV" not in captured):
+				if len(towers) > 1:
+					towers.remove(tower) # The left distance sensor does not detect that a wall is close after claiming HA
+		else:
+			if (tower.target_info.station_code != "HA" and wall_block(tower.bearing) == True) or (tower.target_info.station_code in ("PO", "YT") and "BG" not in captured):
+				if captured[-1] == "SZ" and tower.target_info.station_code in ("HV", "PO"):
+					towers.remove(tower)
+				else:
+					if len(towers) > 1:
+						towers.remove(tower)
 	print(towers)
-	if captured[-1] == "SW":
-		return "HV"
-	elif captured[-1] == "HV":
-		return "PO"
+	if R.zone == 0:
+		if captured[-1] == "SW":
+			return "HV"
+		elif captured[-1] == "HV":
+			return "PO"
+		else:
+			closest = towers[0]
+			for tower in towers:
+				if tower.signal_strength > closest.signal_strength and tower.target_info.station_code not in captured:
+					closest = tower
+			return closest.target_info.station_code
 	else:
-		closest = towers[0]
-		for tower in towers:
-			if tower.signal_strength > closest.signal_strength and tower.target_info.station_code not in captured:
-				closest = tower
-		return closest.target_info.station_code
+		if captured[-1] == "TS":
+			return "BG"
+		elif captured[-1] == "BG":
+			return "EY"
+		else:
+			closest = towers[0]
+			for tower in towers:
+				if tower.signal_strength > closest.signal_strength and tower.target_info.station_code not in captured:
+					closest = tower
+			return closest.target_info.station_code
 
 rev = 2
 captured = []
 if R.zone == 0:
 	captured.append('0') # The robot must check which towers connect to its starting zone
-else:
-	captured.append('1')
-claim_three()
-
-if R.zone == 0:
+	claim_three_p()
 	move(-100, 0.7)
 	turnR(0.6, 70, 10)
 	move(100, 0.7)
 	next_tower = get_target()
-	while True:
+else:
+	captured.append('1')
+	claim_three_y()
+	move(-100, 0.7)
+	turnL(0.6, 10, 70)
+	move(100, 0.7)
+	next_tower = get_target()
+	
+while True:
+	if R.zone == 0:
 		if captured[-1] not in ("VB", "SZ", "PL", "HV", "SW", "YL"):
 			move(-100, 0.49)
-		print("Target is ", next_tower)
+	else:
+		if captured[-1] not in ("SZ", "VB", "PL", "BG", "TS", "PN", "HA", "PO"):
+			move(-100, 0.49)
+	
+	print("Target is ", next_tower)
+	t = get_transmitters()
+	while t[0].target_info.station_code != next_tower:
+		t.pop(0)
+		if len(t) == 0:
+			next_tower = get_target()
+			t = get_transmitters()
+	d = (abs(t[0].bearing) / (2 * math.pi)) * rev
+	if t[0].bearing < 0:
+		turnL(d)
+	else:
+		turnR(d)
+	while t[0].signal_strength < 5:
+		ml.power = 100
+		mr.power = 100
 		t = get_transmitters()
 		while t[0].target_info.station_code != next_tower:
 			t.pop(0)
-			if len(t) == 0:
-				next_tower = get_target()
-				t = get_transmitters()
-		d = (abs(t[0].bearing) / (2 * math.pi)) * rev
-		if t[0].bearing < 0:
-			turnL(d)
-		else:
-			turnR(d)
-		while t[0].signal_strength < 5:
-			ml.power = 100
-			mr.power = 100
-			t = get_transmitters()
-			while t[0].target_info.station_code != next_tower:
-				t.pop(0)
-		stop()
-		claim(next_tower)
+	stop()
+	claim(next_tower)
+
+	if R.zone == 0:
 		if captured[-1] == "SZ":
 			move(-100, 0.49)
 			turnR(rev / 4)
@@ -281,6 +370,70 @@ if R.zone == 0:
 			d = (heading() - 4.7) / (2 * math.pi) # Turning until approx. 270 degrees (W)
 			turnL(d * rev)
 			move(100, 1)
+	else:
+		if captured[-1] == "VB":
+			move(-100, 0.49)
+			turnL(rev / 4)
+			move(100, 0.7)
+			if "PL" in captured: #Get closer to OX
+				turnR(rev / 6)
+				move(100, 2.5)
+		elif captured[-1] == "PL":
+			move(-100, 0.7)
+			if heading() > math.pi:
+				move(-100, 0.3)
+				d = (heading()) / (2 * math.pi) # Turning until approx. 0 degrees (N)
+				turnR(d * rev)
+				move(100, 0.6)
+			elif "VB" not in captured:
+				turnR(rev * (5/12))
+				move(100, 0.7) 
+			if "VB" in captured: #Get closer to OX
+				d = abs(heading() - 5.6) / (2 * math.pi) # Turning until approx. 315 degrees (NW)
+				turnR(d * rev)
+				move(100, 0.5)
+				turnL(rev / 8)
+				move(100, 1.3)
+				turnL(rev / 7)
+				move(100, 1.5)
+		elif captured[-1] == "OX": # Get closer to TS
+			move(-100, 1.5)
+		elif captured[-1] == "TS": # Get closer to BG (The arena walls have fallen)
+			if heading() < 1.6:
+				move(-100, 0.5)
+				turnL(rev / 3)
+				move(100, 2)
+			else:
+				move(-100, 2)
+				d = abs(0.5 - heading()) / (2 * math.pi) # Turning until approx. 30 degrees (NE)
+				turnL(d * rev)
+				move(100, 1.5)
+		elif captured[-1] == "BG": # Manoeuvre to top of arena
+			move(-100, 1)
+			turnL(rev / 6)
+			move(100, 1.7)
+			turnR(rev / 3)
+			move(100, 1.6)
+			d = abs((heading() - 1.57)) / (2 * math.pi) # Turning until approx. 270 degrees (W)
+			turnR(d * rev)
+			move(100, 1)
+		elif captured[-1] == "PN":
+			move(-100, 1)
+			turnR(rev / 2.5)
+			move(100, 0.7)
+		elif captured[-1] == "FL":
+			move(-100, 0.5)
+			turnR(rev / 4)
+			move(100, 1)
+		elif captured[-1] == "HA":
+			move(-100, 0.5)
+			turnL(0.4)
+			move(100, 0.4)
+		elif captured[-1] == "PO":
+			move(-100, 0.5)
+			turnL(rev / 5)
+			move (100, 0.5)
 
-		next_tower = get_target()
+
+	next_tower = get_target()
 		
