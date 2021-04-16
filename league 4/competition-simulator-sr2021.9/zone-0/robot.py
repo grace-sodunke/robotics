@@ -88,15 +88,12 @@ def get_transmitters():
 def claim_three():
 	if R.zone == 0:
 		print(heading())
-		a = (2.94 - heading()) / (2 * math.pi)
+		a = (2.94 - heading() + 0.05) / (2 * math.pi)
 		turnR(a * rev)
 		print(heading())
-		print(heading() < 2.86)
-		if heading() < 2.86:
-			turnR(0.1)
 		move(100, 2.2)
 		claim('OX')
-		move(-70, 0.3)
+		move(-70, 0.35)
 		t = R.radio.sweep()
 		if t[0].bearing < -0.5:
 			turnL(0.75, 10, 80)
@@ -112,6 +109,11 @@ def claim_three():
 		t = get_transmitters() # Only at this point will it detect TS
 		while t[0].target_info.station_code != "TS":
 			t.pop(0)
+		d = abs(t[0].bearing) / (2 * math.pi)
+		if t[0].bearing < 0:
+			turnL(d * rev)
+		else:
+			turnR(d * rev)
 		while t[0].signal_strength < 5:
 			ml.power = 90
 			mr.power = 90
@@ -147,12 +149,12 @@ def claim_three():
 
 def wall_block(b):
 	perim = 1.5
-	if b >= -1 * math.pi * (5 / 18) and b <= math.pi * (5 / 18):
+	if abs(b) <= math.pi * (5 / 18):
 		return distance(0) < perim or distance(1) < perim
 	elif b <= -1 * math.pi * (5 / 18) and b >= -1 * math.pi * (13 / 18):
 		print("Distance to wall: ", distance(2))
 		return distance(2) < perim
-	elif b <= -1 * math.pi * (13 / 18) or b >= math.pi * (13 / 18):
+	elif abs(b) >= (13 / 18):
 		return distance(4) < perim or distance(5) < perim
 	else:
 		return distance(3) < perim
@@ -174,9 +176,10 @@ def get_target():
 	print(towers)
 	for tower in towers:
 		if (tower.target_info.station_code != "HA" and wall_block(tower.bearing) == True) or (tower.target_info.station_code in ("EY", "YT") and "HV" not in captured):
-			towers.remove(tower) # The left distance sensor does not detect that a wall is close after claiming HA
+			if len(towers) > 1:
+				towers.remove(tower) # The left distance sensor does not detect that a wall is close after claiming HA
 	print(towers)
-	if "SZ" in captured and "PL" in captured and captured[-1] in ("SZ", "PL"):
+	if captured[-1] == "SW":
 		return "HV"
 	elif captured[-1] == "HV":
 		return "PO"
@@ -201,12 +204,15 @@ if R.zone == 0:
 	move(100, 0.7)
 	next_tower = get_target()
 	while True:
-		if captured[-1] not in ("VB", "SZ", "PL", "HV"):
+		if captured[-1] not in ("VB", "SZ", "PL", "HV", "SW", "YL"):
 			move(-100, 0.49)
 		print("Target is ", next_tower)
 		t = get_transmitters()
 		while t[0].target_info.station_code != next_tower:
 			t.pop(0)
+			if len(t) == 0:
+				next_tower = get_target()
+				t = get_transmitters()
 		d = (abs(t[0].bearing) / (2 * math.pi)) * rev
 		if t[0].bearing < 0:
 			turnL(d)
@@ -224,32 +230,57 @@ if R.zone == 0:
 			move(-100, 0.49)
 			turnR(rev / 4)
 			move(100, 0.7)
-			if "PL" in captured:
-				d = (heading() - 1.55) / (2 * math.pi) # Turning until approx. 90 degrees (E)
-				turnL(d * rev)
-				move(100, 1)
+			if "PL" in captured: #Get closer to BN
+				turnL(rev / 6)
+				move(100, 2.5)
 		elif captured[-1] == "PL":
 			move(-100, 0.7)
 			if heading() < math.pi:
 				move(-100, 0.3)
 				d = (heading() + 0.1) / (2 * math.pi) # Turning until approx. 0 degrees (N)
 				turnL(d * rev)
-			else:
+				move(100, 0.6)
+			elif "SZ" not in captured:
 				turnL(rev * (5/12))
-			move(100, 0.7)
-			if "SZ" in captured:
-				d = (heading() - 0.65) / (2 * math.pi) # Turning until approx. 45 degrees (NE)
+				move(100, 0.7) 
+			if "SZ" in captured: #Get closer to BN
+				d = (heading() - 0.75) / (2 * math.pi) # Turning until approx. 45 degrees (NE)
 				turnL(d * rev)
-				move(100, 1.6)
-		elif captured[-1] == "HV": # Manoeuvre around wall to top of arena
-			move(-100, 0.6)
-			d = (1.7 - heading()) / (2 * math.pi)
-			turnR(d * rev)
-			move(100, 1.1)
-			d = (heading() + 0.1) / (2 * math.pi)
+				move(100, 0.5)
+				turnR(rev / 8)
+				move(100, 1.3)
+				turnR(rev / 8)
+				move(100, 1.3)
+		elif captured[-1] == "BN": # Get closer to SW
+			move(-100, 1.5)
+		elif captured[-1] == "SW": # Get closer to HV (The arena walls have fallen)
+			if heading() > 4.7:
+				move(-100, 0.5)
+				turnR(rev / 3)
+				move(100, 2)
+			else:
+				move(-100, 2)
+				d = (5.8 - heading()) / (2 * math.pi) # Turning until approx. 315 degrees (NW)
+				turnR(d * rev)
+				move(100, 1.5)
+		elif captured[-1] == "HV": # Manoeuvre to top of arena
+			move(-100, 1)
+			turnR(rev / 6)
+			move(100, 1.7)
+			turnL(rev / 3)
+			move(100, 1.6)
+			d = abs((heading() - 4.7)) / (2 * math.pi) # Turning until approx. 270 degrees (W)
 			turnL(d * rev)
 			move(100, 1)
-			turnL(0.6)
+		elif captured[-1] == "YL":
+			move(-100, 1)
+			turnL(rev / 2.5)
+			move(100, 0.7)
+		elif captured[-1] == "FL":
+			move(-100, 0.5)
+			d = (heading() - 4.7) / (2 * math.pi) # Turning until approx. 270 degrees (W)
+			turnL(d * rev)
 			move(100, 1)
+
 		next_tower = get_target()
 		
