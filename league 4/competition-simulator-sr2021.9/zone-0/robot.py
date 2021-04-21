@@ -287,7 +287,7 @@ else:
 	
 while True:
 	if R.zone == 0:
-		if captured[-1] not in ("VB", "SZ", "PL", "HV", "SW", "YL"):
+		if captured[-1] not in ("VB", "SZ", "PL", "HV", "SW", "YL", "EY", "FL"):
 			move(-100, 0.49)
 	else:
 		if captured[-1] not in ("SZ", "VB", "PL", "BG", "TS", "PN", "HA", "PO"):
@@ -369,6 +369,10 @@ while True:
 			move(-100, 0.5)
 			d = (heading() - 4.7) / (2 * math.pi) # Turning until approx. 270 degrees (W)
 			turnL(d * rev)
+			move(100, 1)
+		elif captured[-1] == "EY":
+			move(-100, 0.7)
+			turnR(rev / 6)
 			move(100, 1)
 	else:
 		if captured[-1] == "VB":
