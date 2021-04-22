@@ -90,9 +90,22 @@ def claim_three_p():
 	a = (2.94 - heading() + 0.05) / (2 * math.pi)
 	turnR(a * rev)
 	print(heading())
-	move(100, 2.2)
+	move(100, 1)
+	t = get_transmitters()
+	while t[0].target_info.station_code != "OX":
+		t.pop(0)
+	d = abs(t[0].bearing) / (2 * math.pi)
+	if t[0].bearing < 0:
+		turnL(d * rev)
+	else:
+		turnR(d * rev)
+	while t[0].signal_strength < 5:
+		ml.power = 90
+		mr.power = 90
+		t = get_transmitters()
+	stop()
 	claim('OX')
-	move(-70, 0.35)
+	move(-70, 0.45)
 	t = R.radio.sweep()
 	if t[0].bearing < -0.5:
 		turnL(0.75, 10, 80)
@@ -122,9 +135,9 @@ def claim_three_p():
 	if t[0].bearing < -0.5: # After claiming, it might be on the right side of the tower or face southeast. 
 		move(-100, 0.75) # In this case, it should reverse more
 	else:
-		move(-100, 0.45) 
+		move(-100, 0.6) 
 	print(heading())
-	d = (heading() - 0.45) / (2 * math.pi) # Turning until approx. 40 degrees (NE)
+	d = (heading() - 0.2) / (2 * math.pi) # Turning until approx. 40 degrees (NE)
 	turnL(d * rev)
 	print(heading())
 	move(100, 1.5)
@@ -149,9 +162,22 @@ def claim_three_y():
 	a = abs((3.34 - heading() - 0.05)) / (2 * math.pi)
 	turnL(a * rev)
 	print(heading())
-	move(100, 2.2)
+	move(100, 1)
+	t = get_transmitters()
+	while t[0].target_info.station_code != "BN":
+		t.pop(0)
+	d = abs(t[0].bearing) / (2 * math.pi)
+	if t[0].bearing < 0:
+		turnL(d * rev)
+	else:
+		turnR(d * rev)
+	while t[0].signal_strength < 5:
+		ml.power = 90
+		mr.power = 90
+		t = get_transmitters()
+	stop()
 	claim('BN')
-	move(-70, 0.4)
+	move(-70, 0.45)
 	t = R.radio.sweep()
 	if t[0].bearing > 0.5:
 		turnL(0.6, 80, 10)
@@ -183,7 +209,7 @@ def claim_three_y():
 	else:
 		move(-100, 0.5) 
 	print(heading())
-	d = abs(heading() - 6) / (2 * math.pi) # Turning until approx. 340 degrees (NNW)
+	d = abs(heading() - 6.1) / (2 * math.pi) # Turning until approx. 340 degrees (NNW)
 	turnR(d * rev)
 	print(heading())
 	move(100, 1.5)
