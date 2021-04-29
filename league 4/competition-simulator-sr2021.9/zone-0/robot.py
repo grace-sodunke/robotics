@@ -183,6 +183,150 @@ def claim_three_y():
             t.pop(0)
     robot.brake(0.25)
     robot.claim('SZ')
+def claim_three_p():
+	print(heading())
+	turnR(a * rev)
+	print(heading())
+	move(100, 1)
+	t = get_transmitters()
+	while t[0].target_info.station_code != "OX":
+		t.pop(0)
+	d = abs(t[0].bearing) / (2 * math.pi)
+	if t[0].bearing < 0:
+		turnL(d * rev)
+	else:
+		turnR(d * rev)
+	while t[0].signal_strength < 5:
+		ml.power = 90
+		mr.power = 90
+		t = get_transmitters()
+	stop()
+	claim('OX')
+	move(-70, 0.45)
+	t = R.radio.sweep()
+	if t[0].bearing < -0.5:
+		turnL(0.75, 10, 80)
+	else:
+		turnL(0.6, 10, 70)
+	move(100, 1)
+	d = abs((heading() - 1.39)) / (2 * math.pi) # Turning until approx. 80 degrees (ENE)
+	if heading() > math.pi * (4/9):
+		turnL(d * rev)
+	else:
+		turnR(d * rev)
+	move(100, 1.35)
+	t = get_transmitters() # Only at this point will it detect TS
+	while t[0].target_info.station_code != "TS":
+		t.pop(0)
+	d = abs(t[0].bearing) / (2 * math.pi)
+	if t[0].bearing < 0:
+		turnL(d * rev)
+	else:
+		turnR(d * rev)
+	while t[0].signal_strength < 5:
+		ml.power = 90
+		mr.power = 90
+		t = get_transmitters()
+	stop()
+	claim('TS')
+	if t[0].bearing < -0.5: # After claiming, it might be on the right side of the tower or face southeast. 
+		move(-100, 0.75) # In this case, it should reverse more
+	else:
+		move(-100, 0.6) 
+	print(heading())
+	d = (heading() - 0.2) / (2 * math.pi) # Turning until approx. 40 degrees (NE)
+	turnL(d * rev)
+	print(heading())
+	move(100, 1.5)
+	t = get_transmitters()
+	while t[0].target_info.station_code != "VB":
+			t.pop(0)
+	d = abs(t[0].bearing) / (2 * math.pi)
+	if t[0].bearing < 0:
+		turnL(d * rev)
+	else:
+		turnR(d * rev)
+	while t[0].signal_strength < 5:
+		ml.power = 90
+		mr.power = 90
+		t = get_transmitters()
+		while t[0].target_info.station_code != "VB":
+			t.pop(0)
+	stop()
+	claim('VB')
+def claim_three_y():
+	print(heading())
+	a = abs((3.34 - heading() - 0.05)) / (2 * math.pi)
+	turnL(a * rev)
+	print(heading())
+	move(100, 1)
+	t = get_transmitters()
+	while t[0].target_info.station_code != "BN":
+		t.pop(0)
+	d = abs(t[0].bearing) / (2 * math.pi)
+	if t[0].bearing < 0:
+		turnL(d * rev)
+	else:
+		turnR(d * rev)
+	while t[0].signal_strength < 5:
+		ml.power = 90
+		mr.power = 90
+		t = get_transmitters()
+	stop()
+	claim('BN')
+	move(-70, 0.45)
+	t = R.radio.sweep()
+	if t[0].bearing > 0.5:
+		turnL(0.6, 80, 10)
+	else:
+		turnL(0.6, 70, 10)
+	move(100, 1)
+	d = abs(heading() - 4.9) / (2 * math.pi) # Turning until approx. 80 degrees (ENE)
+	if heading() < math.pi * (14/9):
+		turnR(d * rev)
+	else:
+		turnL(d * rev)
+	move(100, 1.35)
+	t = get_transmitters() # Only at this point will it detect SW
+	while t[0].target_info.station_code != "SW":
+		t.pop(0)
+	d = abs(t[0].bearing) / (2 * math.pi)
+	if t[0].bearing < 0:
+		turnL(d * rev)
+	else:
+		turnR(d * rev)
+	while t[0].signal_strength < 5:
+		ml.power = 90
+		mr.power = 90
+		t = get_transmitters()
+	stop()
+	claim('SW')
+	if t[0].bearing > 0.5: # After claiming, it might be on the left side of the tower or face southwest. 
+		move(-100, 0.8) # In this case, it should reverse more
+	else:
+		move(-100, 0.5) 
+	print(heading())
+	d = abs(heading() - 6.1) / (2 * math.pi) # Turning until approx. 340 degrees (NNW)
+	turnR(d * rev)
+	print(heading())
+	move(100, 1.5)
+	t = get_transmitters()
+	while t[0].target_info.station_code != "SZ":
+			t.pop(0)
+	d = abs(t[0].bearing) / (2 * math.pi)
+	if t[0].bearing < 0:
+		turnL(d * rev)
+	else:
+		turnR(d * rev)
+	while t[0].signal_strength < 5:
+		ml.power = 90
+		mr.power = 90
+		t = get_transmitters()
+		while t[0].target_info.station_code != "SZ":
+			t.pop(0)
+	stop()
+	claim('SZ')
+>>>>>>> 4df46e89de08a4fad499a6016dcdc53c7a3f81c7
 
 
 def wall_block(b):
