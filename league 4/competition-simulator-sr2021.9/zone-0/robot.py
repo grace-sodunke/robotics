@@ -126,6 +126,7 @@ def claim_three_p():
     robot.claim('VB')
 
 
+<<<<<<< HEAD
 def claim_three_y():
     print(robot.heading())
     a = abs((3.34 - robot.heading() - 0.05)) / (2 * math.pi)
@@ -183,8 +184,10 @@ def claim_three_y():
             t.pop(0)
     robot.brake(0.25)
     robot.claim('SZ')
+=======
 def claim_three_p():
 	print(heading())
+	a = (2.94 - heading() + 0.05) / (2 * math.pi)
 	turnR(a * rev)
 	print(heading())
 	move(100, 1)
