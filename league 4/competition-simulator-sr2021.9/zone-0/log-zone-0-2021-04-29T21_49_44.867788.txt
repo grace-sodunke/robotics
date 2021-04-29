@@ -1,0 +1,23 @@
+0| Running simulator version sr2021.9 (rev 4ca1af2f1e93177cf2b4194c4cc003d4c5b69086)
+0| Using C:\_code\python\robotics\league 4\competition-simulator-sr2021.9\zone-0\robot.py for Zone 0
+0| Robot Initialized. Zone: 0, Mode: dev.
+0| Waiting for start signal.
+0| Starting
+0| 
+0| Olavian Robot - Successfully Booted
+0| Traceback (most recent call last):
+0|   File "sr_controller.py", line 153, in <module>
+0|   File "sr_controller.py", line 149, in main
+0|   File "C:\Apps\Python_64\lib\runpy.py", line 265, in run_path
+0|     return _run_module_code(code, init_globals, run_name,
+0|   File "C:\Apps\Python_64\lib\runpy.py", line 97, in _run_module_code
+0|     _run_code(code, mod_globals, init_globals,
+0|   File "C:\Apps\Python_64\lib\runpy.py", line 87, in _run_code
+0|     exec(code, run_globals)
+0|   File "C:\_code\python\robotics\league 4\competition-simulator-sr2021.9\zone-0\robot.py", line 428, in <module>
+0|     robot.turn(right, 90)
+0|   File "C:\_code\python\robotics\league 4\competition-simulator-sr2021.9\zone-0\olavian_robot.py", line 108, in turn
+0|     self.sleep(time - 0.25)
+0|   File "C:\_code\python\robotics\league 4\competition-simulator-sr2021.9\competition-simulator-sr2021.9\modules\sr\robot\robot.py", line 169, in sleep
+0|     raise ValueError('sleep length must be non-negative')
+0| ValueError: sleep length must be non-negative

@@ -1,0 +1,25 @@
+0| Running simulator version sr2021.9 (rev 4ca1af2f1e93177cf2b4194c4cc003d4c5b69086)
+0| Using C:\_code\python\robotics\league 4\competition-simulator-sr2021.9\zone-0\robot.py for Zone 0
+0| Robot Initialized. Zone: 0, Mode: dev.
+0| Waiting for start signal.
+0| Starting
+0| 
+0| Olavian Robot - Successfully Booted
+0| 1.591829710557429
+0| 2.991176925287815
+0| Claimed OX
+0| I found 0 transmitter(s):
+0| Traceback (most recent call last):
+0|   File "sr_controller.py", line 153, in <module>
+0|   File "sr_controller.py", line 149, in main
+0|   File "C:\Apps\Python_64\lib\runpy.py", line 265, in run_path
+0|     return _run_module_code(code, init_globals, run_name,
+0|   File "C:\Apps\Python_64\lib\runpy.py", line 97, in _run_module_code
+0|     _run_code(code, mod_globals, init_globals,
+0|   File "C:\Apps\Python_64\lib\runpy.py", line 87, in _run_code
+0|     exec(code, run_globals)
+0|   File "C:\_code\python\robotics\league 4\competition-simulator-sr2021.9\zone-0\robot.py", line 257, in <module>
+0|     claim_three_p()
+0|   File "C:\_code\python\robotics\league 4\competition-simulator-sr2021.9\zone-0\robot.py", line 91, in claim_three_p
+0|     while t[0].target_info.station_code != "TS":
+0| IndexError: list index out of range

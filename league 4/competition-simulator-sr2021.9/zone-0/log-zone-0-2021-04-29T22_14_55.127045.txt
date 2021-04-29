@@ -1,0 +1,9 @@
+0| Running simulator version sr2021.9 (rev 4ca1af2f1e93177cf2b4194c4cc003d4c5b69086)
+0| Using C:\_code\python\robotics\league 4\competition-simulator-sr2021.9\zone-0\robot.py for Zone 0
+0| Robot Initialized. Zone: 0, Mode: dev.
+0| Waiting for start signal.
+0| Starting
+0| 
+0| Olavian Robot - Successfully Booted
+0| 1.596082834297814
+0| 0.14593680384322885
