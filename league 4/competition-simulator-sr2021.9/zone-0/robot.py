@@ -31,8 +31,9 @@ mr = R.motors[0].m1  # motor board 0, channel 1
 controlBoard = R.ruggeduinos[0]
 
 def claim(tower):
-	R.radio.claim_territory()
-	captured.append(tower)
+    R.radio.claim_territory()
+    captured.append(tower)
+
 
 
 def stop():
@@ -42,7 +43,8 @@ def stop():
 
 
 def sleep(t):
-	R.sleep(t)
+    R.sleep(t)
+
 
 
 def move(p, t):
@@ -54,15 +56,18 @@ def move(p, t):
 
 
 def distance(p):
-	return R.ruggeduinos[0].analogue_read(p)
+    return R.ruggeduinos[0].analogue_read(p)
+
 
 
 def bump(s):
-	return R.ruggeduinos[0].digital_read(s)
+    return R.ruggeduinos[0].digital_read(s)
+
 
 
 def heading():
-	return R.compass.get_heading()
+    return R.compass.get_heading()
+
 
 
 def turnL(t, a=-50, b=50):
@@ -318,16 +323,17 @@ def claim_three_y():
 
 
 def wall_block(b):
-	perim = 1.5
-	if abs(b) <= math.pi * (5 / 18):
-		return distance(0) < perim or distance(1) < perim
-	elif b <= -1 * math.pi * (5 / 18) and b >= -1 * math.pi * (13 / 18):
-		print("Distance to wall: ", distance(2))
-		return distance(2) < perim
-	elif abs(b) >= (13 / 18):
-		return distance(4) < perim or distance(5) < perim
-	else:
-		return distance(3) < perim
+    perim = 1.5
+    if abs(b) <= math.pi * (5 / 18):
+        return distance(0) < perim or distance(1) < perim
+    elif b <= -1 * math.pi * (5 / 18) and b >= -1 * math.pi * (13 / 18):
+        print("Distance to wall: ", distance(2))
+        return distance(2) < perim
+    elif abs(b) >= (13 / 18):
+        return distance(4) < perim or distance(5) < perim
+    else:
+        return distance(3) < perim
+
 
 
 def get_target():
